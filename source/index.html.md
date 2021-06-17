@@ -4,7 +4,6 @@ title: API Reference
 language_tabs: # must be one of https://git.io/vQNgJ
   - shell
   - ruby
-  - python
   - javascript
 
 toc_footers:
@@ -12,6 +11,61 @@ toc_footers:
   - <a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a>
 
 includes:
+  - actions/header
+  - actions/index
+  - actions/show
+
+  - clients/header
+  - clients/index
+  - clients/show
+  - clients/set_current_client
+
+  - conditions/header
+  - conditions/index
+  - conditions/show
+
+  - items/header
+  - items/index
+  - items/show
+  - items/create
+  - items/update
+  - items/validate_code
+
+  - locations/header
+  - locations/index
+  - locations/show
+  - locations/population
+  - locations/search
+
+  - photos/header
+  - photos/create
+  - photos/update
+
+  - sessions/header
+  - sessions/client
+  - sessions/user
+  - sessions/logout
+
+  - stamps/header
+  - stamps/index
+
+  - statuses/header
+  - statuses/index
+  - statuses/show
+
+  - store_me_groups/header
+  - store_me_groups/index
+  - store_me_groups/show
+
+  - tasks/header
+  - tasks/index
+  - tasks/show
+  - tasks/create
+  - tasks/update
+
+  - users/header
+  - users/index
+
   - errors
 
 search: true
@@ -35,12 +89,6 @@ This example API documentation page was created with [Slate](https://github.com/
 require 'kittn'
 
 api = Kittn::APIClient.authorize!('meowmeowmeow')
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
 ```
 
 ```shell
@@ -76,13 +124,6 @@ require 'kittn'
 
 api = Kittn::APIClient.authorize!('meowmeowmeow')
 api.kittens.get
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get()
 ```
 
 ```shell
@@ -144,13 +185,6 @@ api = Kittn::APIClient.authorize!('meowmeowmeow')
 api.kittens.get(2)
 ```
 
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get(2)
-```
-
 ```shell
 curl "http://example.com/api/kittens/2" \
   -H "Authorization: meowmeowmeow"
@@ -195,13 +229,6 @@ ID | The ID of the kitten to retrieve
 require 'kittn'
 
 api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.delete(2)
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
 api.kittens.delete(2)
 ```
 

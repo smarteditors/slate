@@ -1,9 +1,12 @@
 ## Set the Current Client
 
-```shell
-curl -X PUT -H "Content-Type: application/json" -d '{"id":"6"}' \
-  "http://localhost:3000/api/v6/clients/set_current_client" \
-  -H "Authorization: meowmeowmeow"
+```ruby
+params = {
+  client_id: Integer
+}
+
+api = EDi::APIClient
+api.clients.set_current_client(params)
 ```
 
 > The above command returns JSON structured like this:

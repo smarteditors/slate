@@ -1,8 +1,8 @@
 ## Get All Statuses
 
-```shell
-curl "http://localhost:3000/api/v6/meta/statuses" \
-  -H "token: meowmeowmeow"
+```ruby
+api = EDi::APIClient
+api.statuses
 ```
 
 > The above command returns JSON structured like this:
@@ -35,7 +35,7 @@ curl "http://localhost:3000/api/v6/meta/statuses" \
 ]
 ```
 
-This endpoint retrieves all Statuses for the current client.
+This endpoint retrieves all Statuses for the current Client.
 
 ### HTTP Request
 

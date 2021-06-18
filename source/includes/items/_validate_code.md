@@ -1,8 +1,12 @@
 ## Validate an Asset code
 
-```shell
-curl "http://localhost:3000/api/v6/validate_code?code=testcode" \
-  -H "Authorization: meowmeowmeow"
+```ruby
+params = {
+  code: String
+}
+
+api = EDi::APIClient
+api.assets.validate_code(params)
 ```
 
 > The above command returns JSON structured like this:

@@ -1,8 +1,8 @@
 ## Get All Conditions
 
-```shell
-curl "http://localhost:3000/api/v6/meta/conditions" \
-  -H "token: meowmeowmeow"
+```ruby
+api = EDi::APIClient
+api.conditions
 ```
 
 > The above command returns JSON structured like this:

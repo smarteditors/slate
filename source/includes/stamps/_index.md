@@ -1,8 +1,8 @@
 ## Get All Action Stamps
 
-```shell
-curl "http://localhost:3000/api/v6/meta/stamps" \
-  -H "token: meowmeowmeow"
+```ruby
+api = EDi::APIClient
+api.stamps
 ```
 
 > The above command returns JSON structured like this:

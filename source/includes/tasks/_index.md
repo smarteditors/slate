@@ -1,8 +1,8 @@
 ## Get All Tasks
 
-```shell
-curl "http://localhost:3000/api/v6/tasks" \
-  -H "token: meowmeowmeow"
+```ruby
+api = EDi::APIClient
+api.tasks
 ```
 
 > The above command returns JSON structured like this:

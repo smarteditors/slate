@@ -1,8 +1,8 @@
 ## Get All Cients
 
-```shell
-curl "http://localhost:3000/api/v6/clients" \
-  -H "token: meowmeowmeow"
+```ruby
+api = EDi::APIClient
+api.clients
 ```
 
 > The above command returns JSON structured like this:
@@ -31,4 +31,4 @@ This endpoint retrieves all Clients.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v6/meta/clients`
+`GET http://localhost:3000/api/v6/clients`

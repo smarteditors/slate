@@ -1,8 +1,8 @@
 ## Get a Specific Location
 
-```shell
-curl "http://localhost:3000/api/v6/locations/75" \
-  -H "Authorization: meowmeowmeow"
+```ruby
+api = EDi::APIClient
+api.locations(6)
 ```
 
 > The above command returns JSON structured like this:

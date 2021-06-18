@@ -1,8 +1,12 @@
 ## Get a Specific Store Me Group
 
-```shell
-curl "http://localhost:3000/api/v6/store_more_groups" \
-  -H "token: meowmeowmeow"
+```ruby
+params = {
+  store_me_group_id: Integer
+}
+
+api = EDi::APIClient
+api.store_me_groups(params)
 ```
 
 > The above command returns JSON structured like this:

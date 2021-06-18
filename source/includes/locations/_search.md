@@ -1,8 +1,16 @@
 ## Search
 
-```shell
-curl "http://localhost:3000/api/v6/locations/search" \
-  -H "token: meowmeowmeow"
+```ruby
+params = {
+  client_id: Integer,
+  transit: Boolean,
+  store: Boolean,
+  from: Integer,
+  to: Integer
+}
+
+api = EDi::APIClient
+api.locations.search(params)
 ```
 
 > The above command returns JSON structured like this:

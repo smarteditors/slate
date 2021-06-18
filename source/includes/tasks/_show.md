@@ -1,8 +1,8 @@
 ## Get a Specific Task
 
-```shell
-curl "http://localhost:3000/api/v6/tasks/1" \
-  -H "token: meowmeowmeow"
+```ruby
+api = EDi::APIClient
+api.tasks(1)
 ```
 
 > The above command returns JSON structured like this:
@@ -116,7 +116,7 @@ curl "http://localhost:3000/api/v6/tasks/1" \
 }
 ```
 
-This endpoint retrieves a specific task
+This endpoint retrieves a specific Task
 
 ### HTTP Request
 

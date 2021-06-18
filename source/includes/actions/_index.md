@@ -1,8 +1,8 @@
 ## Get All Actions
 
-```shell
-curl "http://localhost:3000/api/v6/meta/actions" \
-  -H "token: meowmeowmeow"
+```ruby
+api = EDi::APIClient
+api.actions
 ```
 
 > The above command returns JSON structured like this:

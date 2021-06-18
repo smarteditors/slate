@@ -1,8 +1,16 @@
 ## Get All Assets For a Location
 
-```shell
-curl "http://localhost:3000/api/v6/items" \
-  -H "token: meowmeowmeow"
+```ruby
+params = {
+  location_id: Integer,
+  per_page: Integer,
+  page: Integer,
+  limit: Integer,
+  ignore_current_client: Boolean
+}
+
+api = EDi::APIClient
+api.items(params)
 ```
 
 > The above command returns JSON structured like this:

@@ -1,8 +1,8 @@
 ## Get a Specific Asset
 
-```shell
-curl "http://localhost:3000/api/v6/items/75" \
-  -H "Authorization: meowmeowmeow"
+```ruby
+api = EDi::APIClient
+api.items(75)
 ```
 
 > The above command returns JSON structured like this:

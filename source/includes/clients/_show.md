@@ -1,8 +1,8 @@
 ## Get a Specific Client
 
-```shell
-curl "http://localhost:3000/api/v6/clients/6" \
-  -H "Authorization: meowmeowmeow"
+```ruby
+api = EDi::APIClient
+api.clients(6)
 ```
 
 > The above command returns JSON structured like this:
@@ -35,4 +35,4 @@ This endpoint retrieves a specific client.
 
 Parameter | Description
 --------- | -----------
-ID | The ID of the client to retrieve
+ID | The ID of the Client to retrieve

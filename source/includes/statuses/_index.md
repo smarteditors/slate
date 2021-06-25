@@ -1,11 +1,8 @@
 ## Get All Statuses
 
-```ruby
-api = EDi::APIClient
-api.statuses
-```
+> `GET http://localhost:3000/api/v6/statuses`
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 [
@@ -35,7 +32,7 @@ api.statuses
 ]
 ```
 
-This endpoint retrieves all Statuses for the current Client.
+This endpoint retrieves all available asset Statuses for the current Client.
 
 ### HTTP Request
 

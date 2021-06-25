@@ -1,15 +1,14 @@
 ## Set the Current Client
 
-```ruby
-params = {
-  client_id: Integer
-}
+> `PUT http://localhost:3000/api/v6/clients/set_current_client`
 
-api = EDi::APIClient
-api.clients.set_current_client(params)
+```ruby
+example_params = {
+  "client_id": Integer
+}
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -27,6 +26,6 @@ This endpoint changes the client.
 
 ### Query Parameters
 
-Parameter | Default | Description
---------- | ------- | -----------
-ID | null | The ID of the client to you want to switch to
+Parameter | Default | Description | Required?
+--------- | ------- | ----------- | ---------
+ID | null | The uuid of the client to set | Yes

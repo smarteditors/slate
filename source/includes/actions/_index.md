@@ -1,11 +1,8 @@
 ## Get All Actions
 
-```ruby
-api = EDi::APIClient
-api.actions
-```
+> `GET http://localhost:3000/api/v6/meta/actions`
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 [

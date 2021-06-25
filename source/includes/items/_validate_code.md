@@ -1,15 +1,14 @@
 ## Validate an Asset code
 
+> `GET http://localhost:3000/api/v6/validate_code`
+
 ```ruby
-params = {
+example_params = {
   code: String
 }
-
-api = EDi::APIClient
-api.assets.validate_code(params)
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -18,7 +17,7 @@ api.assets.validate_code(params)
 }
 ```
 
-This endpoint checks whether an Asset code is in use or not.
+Asset codes must be unique. This endpoint checks whether an Asset code is already in use or not.
 
 ### HTTP Request
 
@@ -26,6 +25,6 @@ This endpoint checks whether an Asset code is in use or not.
 
 ### Query Parameters
 
-Parameter | Default | Description
---------- | ------- | -----------
-code | null | The Asset code to validate 
+Parameter | Default | Description | Type | Required? | Options
+--------- | ------- | ----------- | ---- | --------- | -------
+code | null | The Asset code to validate, by checking uniqueness | String | Yes  

@@ -1,11 +1,8 @@
 ## Get All Cients
 
-```ruby
-api = EDi::APIClient
-api.clients
-```
+> `GET http://localhost:3000/api/v6/clients`
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 [
@@ -27,7 +24,7 @@ api.clients
 ]
 ```
 
-This endpoint retrieves all Clients.
+This endpoint retrieves all Clients for the current user.
 
 ### HTTP Request
 

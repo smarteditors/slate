@@ -1,11 +1,8 @@
 ## Population
 
-```shell
-curl "http://localhost:3000/api/v6/locations/75/population" \
-  -H "Authorization: meowmeowmeow"
-```
+> `GET http://localhost:3000/api/v6/locations/d8531da9-85a3-4c57-9ffc-66f9f24c7a9b/population`
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 [
@@ -38,4 +35,4 @@ This endpoint retrieves assets from a specific location.
 
 Parameter | Description
 --------- | -----------
-ID | The ID of the location from which to retrieve assets
+ID | The uuid of the location from which to retrieve all assets

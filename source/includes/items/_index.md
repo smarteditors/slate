@@ -1,19 +1,18 @@
 ## Get All Assets For a Location
 
+> `GET http://localhost:3000/api/v6/meta/items`
+
 ```ruby
-params = {
-  location_id: Integer,
+example_params = {
+  location_id: String,
   per_page: Integer,
   page: Integer,
   limit: Integer,
   ignore_current_client: Boolean
 }
-
-api = EDi::APIClient
-api.items(params)
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -132,11 +131,11 @@ This endpoint retrieves all Assets for a location.
 
 ### Query Parameters
 
-Parameter | Default | Description | Required?
---------- | ------- | ----------- | --------
-location_id | null | The ID of the locaton for which you want the assets | true
-per_page | 10 | Number of items on each page of items returned | false
-page | 1 | The page of paginated items returned | false
-limit | 10 | The total number of items returned. Ignored if :per_page is submitted | false
-ignore_current_client | false | Ignore the client and return items from all clients | false
+Parameter | Default | Description | Type | Required?
+--------- | ------- | ----------- | ---- | --------
+location_id | null | The uuid of the locaton for which you want the assets | String |Yes
+per_page | 10 | Number of items on each page of items returned | Integer | No
+page | 1 | The page of paginated items returned | Integer | No
+limit | 10 | The total number of items returned. Ignored if :per_page is submitted | Integer | No
+ignore_current_client | false | Ignore the client and return items from all clients | Integer | No
 

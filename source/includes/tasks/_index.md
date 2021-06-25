@@ -5,7 +5,7 @@ api = EDi::APIClient
 api.tasks
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 [

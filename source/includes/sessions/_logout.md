@@ -1,11 +1,8 @@
 ## Logout
 
-```ruby
-api = EDi::APIClient
-api.sessions.logout
-```
+> `DELETE http://localhost:3000/api/v6/sessions/logout`
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {

@@ -1,18 +1,22 @@
 ## Get All Locations
 
+> `GET http://localhost:3000/api/v6/meta/locations`
+
 ```ruby
-
-# ??? add params
-params = {
-  id: Integer
+example_params = {
+  id: Integer,
+  resource: String ['stores', 'transits'],
+  client_id: Integer,
+  asset_id: Integer,
+  query: String,
+  per_page: Integer,
+  page: Integer,
+  limit: Integer
 }
-
-api = EDi::APIClient
-api.locations
 ```
 
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -83,12 +87,12 @@ This endpoint retrieves all root locations for the current client, or all child 
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | -------- | -------
-id | nil | A location ID. If provided the endpoint returns the child locations of the parent location specified | int | false
-resource | nil | Used to specify the type of location required. Store and transit locations are only returned if specified with this param | false | stores, transits
-client_id | current client id | Return locations linked to a specific client | int | false
-asset_id | nil | ??? Looks like it is only used to select a client if no :client_id is submitted | int | false
-query | nil | A search parameter applied to location fields | String | false | 
-per_page | 10 | Number of items on each page of items returned | int | false | max 100
-page | 1 | The page of paginated items returned | int | false | 
-limit | 10 | The total number of items returned. Ignored if :per_page is submitted | false | false | 
+id | nil | A location ID. If provided the endpoint returns the child locations of the parent location specified | Integer | No
+resource | nil | Used to specify the type of location required. Store and transit locations are only returned if specified with this param | String | No | stores, transits
+client_id | current client id | Return locations linked to a specific client | Integer | No
+asset_id | nil | ??? Looks like it is only used to select a client if no :client_id is submitted | Integer | No
+query | nil | A search parameter applied to location fields | String | No | 
+per_page | 10 | Number of items on each page of items returned | Integer | No | max 100
+page | 1 | The page of paginated items returned | Integer | No | 
+limit | 10 | The total number of items returned. Ignored if :per_page is submitted | No | No | 
 

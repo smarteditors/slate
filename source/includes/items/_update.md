@@ -1,7 +1,7 @@
 ## Update An Asset
 
 ```ruby
-params = {
+example_params = {
   item: {
     location_id: Integer,
     condition_id: Integer,
@@ -67,7 +67,7 @@ api = EDi::APIClient
 api.items.put(2, params)
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -390,5 +390,8 @@ This endpoint updates a specific Asset.
 
 Parameter | Description
 --------- | -----------
-ID | The ID of the Item to update
+ID | The uuid of the Item to update
 
+
+
+Copy paramaeters from create file, or share file 

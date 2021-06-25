@@ -1,18 +1,14 @@
 ## Update A Photo
 
-```ruby
-params = {
-  photo: {
-    item_id: Integer,
-    image_source_url: String
-  }
-}
+> `PUT http://localhost:3000/api/v6/photos/73f5f971-c6d6-4495-b2bf-022380d27c23`
 
-api = EDi::APIClient
-api.photos.update(30, params)
+```ruby
+example_params = {
+  file: [String]
+}
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -47,7 +43,7 @@ api.photos.update(30, params)
 }
 ```
 
-This endpoint updates a specific Photo.
+This endpoint attached a file to a specific Photo record.
 
 ### HTTP Request
 
@@ -58,4 +54,15 @@ This endpoint updates a specific Photo.
 
 Parameter | Description
 --------- | -----------
-ID | The ID of the Photo to update
+ID | The uuid of the Photo to update
+
+
+### Supported Media Types
+
+multipart/form-data
+
+### Params
+
+Parameter | Default | Description | Type | Required? | Options
+--------- | ------- | ----------- | ---- | --------- | -------
+file | null | ??? ??? | String | Yes

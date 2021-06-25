@@ -1,11 +1,8 @@
 ## Get a Specific Client
 
-```ruby
-api = EDi::APIClient
-api.clients(6)
-```
+> `GET http://localhost:3000/api/v6/clients/38f5d5a1-52e6-4091-b9cf-2d9bc34efc3f`
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -35,4 +32,4 @@ This endpoint retrieves a specific client.
 
 Parameter | Description
 --------- | -----------
-ID | The ID of the Client to retrieve
+ID | The uuid of the Client to retrieve

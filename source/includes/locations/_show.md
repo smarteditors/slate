@@ -1,11 +1,8 @@
 ## Get a Specific Location
 
-```ruby
-api = EDi::APIClient
-api.locations(6)
-```
+> `GET http://localhost:3000/api/v6/locations/7dd46282-929f-4899-bb71-141d8c688454`
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -80,4 +77,4 @@ This endpoint retrieves a specific location.
 
 Parameter | Description
 --------- | -----------
-ID | The ID of the location to retrieve
+ID | The uuid of the location to retrieve

@@ -1,11 +1,8 @@
 ## User
 
-```ruby
-api = EDi::APIClient
-api.sessions.user
-```
+> `GET http://localhost:3000/api/v6/sessions/user`
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {

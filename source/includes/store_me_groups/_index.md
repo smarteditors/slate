@@ -1,7 +1,7 @@
 ## Get Store Me Groups
 
 ```ruby
-params = {
+example_params = {
   client_id: Integer
 }
 
@@ -9,7 +9,7 @@ api = EDi::APIClient
 api.store_me_groups(params)
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 [

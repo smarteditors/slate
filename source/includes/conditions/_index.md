@@ -1,11 +1,8 @@
 ## Get All Conditions
 
-```ruby
-api = EDi::APIClient
-api.conditions
-```
+> `GET http://localhost:3000/api/v6/meta/conditions`
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 [

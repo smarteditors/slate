@@ -1,7 +1,7 @@
 ## Update A Task
 
 ```ruby
-params = {
+example_params = {
   task: {
     location_id: Integer,
     description: Text,
@@ -17,7 +17,7 @@ api = EDi::APIClient
 api.tasks.post(params)
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -35,4 +35,4 @@ This endpoint updates a specific Task.
 
 Parameter | Description
 --------- | -----------
-ID | The ID of the task to update
+ID | The uuid of the task to update

@@ -1,11 +1,8 @@
 ## Get a Specific Asset
 
-```ruby
-api = EDi::APIClient
-api.items(75)
-```
+> `GET http://localhost:3000/api/v6/items/fd4e6d48-db9a-4804-ab59-07cb438b65a8`
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -298,4 +295,4 @@ This endpoint retrieves a specific asset.
 
 Parameter | Description
 --------- | -----------
-ID | The ID of the Asset to retrieve
+ID | The uuid of the Asset to retrieve

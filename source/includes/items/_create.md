@@ -1,7 +1,9 @@
 ## Create An Asset
 
+> `POST http://localhost:3000/api/v6/items`
+
 ```ruby
-params = {
+example_example_params = {
   item: {
     location_id: Integer,
     condition_id: Integer,
@@ -62,12 +64,9 @@ params = {
     ]
   }
 }
-
-api = EDi::APIClient
-api.items.post(params)
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -274,3 +273,66 @@ This endpoint creates a new Asset.
 ### HTTP Request
 
 `POST http://localhost:3000/api/v6/items`
+
+### Item Parameters
+
+Parameter | Default | Description | Type | Required? | Options
+--------- | ------- | ----------- | ---- | --------- | -------
+location_id | null | The ID of the location of the asset | Integer | Yes
+condition_id | null | The ID of the asset's condition | Integer | Yes | See the Conditions endpoint
+status_id | null | The ID of the asset's status | Integer | Yes | See the Statuses endpoint
+code | null | ??? | String | Yes
+usage | null | Whether the Asset is in use or unused | String | Yes | 'in_use', 'unused'
+project | null | ??? | String | No
+x | null | The x position of the asset on its location's floorplan ??? | Decimal | No
+y | null | The y position of the asset on its location's floorplan ??? | Decimal | No
+purchase_date | null | The purchase date | Date | No
+purchase_price_cents | null | The purchase price of the item in pence??? | Decimal | No
+room | null | A room identifier??? | String | No
+warranty | null | The warranty length in years | Integer | No
+warranty_info | null |  | Integer | No
+action_id | null | The ID of an Action the asset is ??? | Integer | No | See the Actions endpoint
+installation_date | null | ??? | Date | No
+life_expectancy | null | The life expectancy of the asset in years | Float | No
+catalogue_item_id | null | ??? | ??? | No
+condition_details | null | ??? | String | No
+
+
+### Nested Photo Parameters
+
+Parameter | Default | Description | Type | Required? | Options
+--------- | ------- | ----------- | ---- | --------- | -------
+image | null | A photo of the asset | ??? | No | ???
+
+### Nested Task Parameters
+
+Parameter | Default | Description | Type | Required? | Options
+--------- | ------- | ----------- | ---- | --------- | -------
+completed
+completed_date
+completed_by_id
+
+### Nested Notes Parameters
+
+Parameter | Default | Description | Type | Required? | Options
+--------- | ------- | ----------- | ---- | --------- | -------
+user_id
+body
+
+### Nested Item Attributes Parameters
+
+Parameter | Default | Description | Type | Required? | Options
+--------- | ------- | ----------- | ---- | --------- | -------
+catalogue_association_id
+catalogue_attribute_id
+catalogue_attribute_name
+catalogue_attribute_type
+value
+
+### Nested Stamps Parameters
+
+Parameter | Default | Description | Type | Required? | Options
+--------- | ------- | ----------- | ---- | --------- | -------
+action_stamp
+wear_off_date
+purchase_price_cents

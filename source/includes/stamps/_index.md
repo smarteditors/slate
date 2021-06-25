@@ -5,7 +5,7 @@ api = EDi::APIClient
 api.stamps
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 [

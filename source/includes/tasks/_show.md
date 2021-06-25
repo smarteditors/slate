@@ -5,7 +5,7 @@ api = EDi::APIClient
 api.tasks(1)
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -126,4 +126,4 @@ This endpoint retrieves a specific Task
 
 Parameter | Description
 --------- | -----------
-ID | The ID of the task to retrieve
+ID | The uuid of the task to retrieve

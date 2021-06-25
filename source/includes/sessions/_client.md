@@ -1,11 +1,8 @@
 ## Client
 
-```ruby
-api = EDi::APIClient
-api.sessions.client
-```
+> `GET http://localhost:3000/api/v6/sessions/client`
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -29,7 +26,7 @@ api.sessions.client
 }
 ```
 
-This endpoint returns the current Cslient.
+This endpoint returns the current Client.
 
 ### HTTP Request
 

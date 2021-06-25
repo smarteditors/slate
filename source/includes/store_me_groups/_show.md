@@ -1,7 +1,7 @@
 ## Get a Specific Store Me Group
 
 ```ruby
-params = {
+example_params = {
   store_me_group_id: Integer
 }
 
@@ -9,7 +9,7 @@ api = EDi::APIClient
 api.store_me_groups(params)
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -89,7 +89,7 @@ This endpoint retrieves a Store Me Group for ????
 
 Parameter | Description
 --------- | -----------
-ID | The ID of the location to retrieve
+ID | The uuid of the location to retrieve
 
 ### Query Parameters
 

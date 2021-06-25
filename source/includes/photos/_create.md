@@ -1,19 +1,19 @@
 ## Create A Photo
 
+> `POST http://localhost:3000/api/v6/photos`
+
 ```ruby
-params = {
+example_params = {
   photo: {
-    uuid: String, ???
+    uuid: String,
     item_id: Integer,
-    image_source_url: String
+    image_source_url: String,
+    created_at: DateTime
   }
 }
-
-api = EDi::APIClient
-api.photos.post(params)
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -48,8 +48,17 @@ api.photos.post(params)
 }
 ```
 
-This endpoint creates a new Photo linked to an item.
+This endpoint creates a new Photo record linked to an item. If the uuid of an existing record is submitted that record is updated instead of a new record being created. This endpoint does not allow the uploading of photo files. after the photo record is created, the photo file for the record is uploaded via the photos/update endpoint.
+
 
 ### HTTP Request
 
 `POST http://localhost:3000/api/v6/photos`
+
+
+### Photo Parameters
+
+Parameter | Default | Description | Type | Required? | Options
+--------- | ------- | ----------- | ---- | --------- | -------
+uuid | null | The uuid of the photo to be created or updated??? | String | Yes
+item_id | null | The ID of the asset the photo is attached to | Integer | Yes

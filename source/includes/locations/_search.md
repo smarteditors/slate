@@ -1,19 +1,18 @@
 ## Search
 
+> `GET http://localhost:3000/api/v6/meta/locations/search`
+
 ```ruby
-params = {
+example_params = {
   client_id: Integer,
   transit: Boolean,
   store: Boolean,
   from: Integer,
   to: Integer
 }
-
-api = EDi::APIClient
-api.locations.search(params)
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 [
@@ -93,7 +92,9 @@ api.locations.search(params)
 ]
 ```
 
-This endpoint retrieves locatiosn based on search parameters.
+??? Only used in the In Transit part of app. Remove from docs? ???
+
+This endpoint retrieves locations based on search parameters.
 
 ### HTTP Request
 
@@ -103,8 +104,8 @@ This endpoint retrieves locatiosn based on search parameters.
 
 Parameter | Default | Description | Type | Required?
 --------- | ------- | ----------- | ---- | --------
-client_id | current client id | Return locations linked to a specific client | int | false
-transit | nil | If true, returns Transit type locations | boolean | false |
-store | nil | If true, returns Store type locations | boolean | false |
-from | nil | ??? A location ID (uuid?). Returns transit locations with the origin location specified | int | false |
-to | nil | ??? A location ID (uuid?). Returns transit locations with the destination location specified | int | false |
+client_id | current client id | Return locations linked to a specific client | Integer | No
+transit | nil | If true, returns Transit type locations | Boolean | No ??? wrong. if you submit anything it considers it 'true'
+store | nil | If true, returns Store type locations | Boolean | No ??? wrong. if you submit anything it considers it 'true'
+from | nil | ??? A location ID (uuid?). Returns transit locations with the origin location specified | Integer | No
+to | nil | ??? A location ID (uuid?). Returns transit locations with the destination location specified | Integer | No

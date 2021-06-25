@@ -1,18 +1,17 @@
 ## Authenticate
 
+> `POST http://localhost:3000/api/v6/authenticate`
+
 ```ruby
-params = {
+example_params = {
   "user": {
     "email": String,
     "password": String
   }
 }
-
-api = EDi::APIClient
-api.authenticate.post(params)
 ```
 
-> The above command returns JSON structured like this:
+> Example response
 
 ```json
 {
@@ -44,3 +43,10 @@ This endpoint authenticates a User.
 ### HTTP Request
 
 `POST http://localhost:3000/api/v6/authenticate`
+
+### Query Parameters
+
+Parameter | Type | Description | Required?
+--------- | ---- | ----------- | --------
+email | String | A registered user email address | Yes
+password | String | The user's password | Yes

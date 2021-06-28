@@ -287,7 +287,7 @@ project | nil | A free text project identifier | String | No
 x | nil | ??? The x position of the item on its location's floorplan. pixels or 0 to 1? ??? | Decimal | No
 y | nil | ??? The y position of the item on its location's floorplan. pixels or 0 to 1? ??? | Decimal | No
 purchase_date | nil | The purchase date | Date | No
-purchase_price_cents | nil | The purchase price of the item in pence??? | Decimal | No
+purchase_price_cents | nil | The purchase price of the item in pence | Decimal | No
 room | nil | A free text room identifier | String | No
 warranty | nil | The warranty length in years | Integer | No
 warranty_info | nil |  | Integer | No

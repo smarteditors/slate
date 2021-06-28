@@ -137,5 +137,5 @@ location_id | nil | The uuid of the locaton for which you want the items | Strin
 per_page | 10 | Number of items on each page of items returned | Integer | No
 page | 1 | The page of paginated items returned | Integer | No
 limit | 10 | The total number of items returned. Ignored if :per_page is submitted | Integer | No
-ignore_current_client | false | ??? Ignore the client and return items from all clients. Hide or return items for all clients the user belongs to ??? | Integer | No
+ignore_current_client | false | ??? Ignore the client and return items from all clients. Need to hide or return items for all clients the user belongs to ??? | Integer | No
 

@@ -1,4 +1,4 @@
-## Validate an Asset code
+## Validate an Item code
 
 > `GET http://localhost:3000/api/v6/validate_code`
 
@@ -17,7 +17,7 @@ example_params = {
 }
 ```
 
-Asset codes must be unique. This endpoint checks whether an Asset code is already in use or not.
+Item codes must be unique. This endpoint checks whether an Item code is already in use or not.
 
 ### HTTP Request
 
@@ -27,4 +27,4 @@ Asset codes must be unique. This endpoint checks whether an Asset code is alread
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-code | null | The Asset code to validate, by checking uniqueness | String | Yes  
+code | nil | The Item code to validate, by checking uniqueness | String | Yes  

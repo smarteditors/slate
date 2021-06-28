@@ -33,7 +33,7 @@
 ]
 ```
 
-This endpoint retrieves all Asset Conditions.
+This endpoint retrieves all Item Conditions.
 
 ### HTTP Request
 

@@ -32,7 +32,7 @@
 ]
 ```
 
-This endpoint retrieves all available asset Statuses for the current Client.
+This endpoint retrieves all available item Statuses.
 
 ### HTTP Request
 

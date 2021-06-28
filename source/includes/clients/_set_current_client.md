@@ -18,7 +18,9 @@ example_params = {
 }
 ```
 
-This endpoint changes the client.
+This endpoint sets the current Client.
+
+??? currenlty possible to select clients the user isn't linked to ???
 
 ### HTTP Request
 
@@ -28,4 +30,4 @@ This endpoint changes the client.
 
 Parameter | Default | Description | Required?
 --------- | ------- | ----------- | ---------
-ID | null | The uuid of the client to set | Yes
+ID | nil | The uuid of the Client to set | Yes

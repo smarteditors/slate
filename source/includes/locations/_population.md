@@ -25,7 +25,7 @@
 ]
 ```
 
-This endpoint retrieves assets from a specific location.
+This endpoint retrieves items stored at a specific location.
 
 ### HTTP Request
 
@@ -35,4 +35,4 @@ This endpoint retrieves assets from a specific location.
 
 Parameter | Description
 --------- | -----------
-ID | The uuid of the location from which to retrieve all assets
+ID | The uuid of the location from which to retrieve all items

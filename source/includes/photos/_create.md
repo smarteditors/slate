@@ -60,5 +60,5 @@ This endpoint creates a new Photo record linked to an item. If the uuid of an ex
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-uuid | null | The uuid of the photo to be created or updated??? | String | Yes
-item_id | null | The ID of the asset the photo is attached to | Integer | Yes
+uuid | nil | The uuid of the photo to be created or updated | String | No
+item_id | nil | The uuid of the item the photo is attached to | Integer | Yes

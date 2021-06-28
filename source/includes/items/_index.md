@@ -1,4 +1,4 @@
-## Get All Assets For a Location
+## Get All Items For a Location
 
 > `GET http://localhost:3000/api/v6/meta/items`
 
@@ -123,7 +123,7 @@ example_params = {
 }
 ```
 
-This endpoint retrieves all Assets for a location.
+This endpoint retrieves all Items for a location.
 
 ### HTTP Request
 
@@ -133,9 +133,9 @@ This endpoint retrieves all Assets for a location.
 
 Parameter | Default | Description | Type | Required?
 --------- | ------- | ----------- | ---- | --------
-location_id | null | The uuid of the locaton for which you want the assets | String |Yes
+location_id | nil | The uuid of the locaton for which you want the items | String |Yes
 per_page | 10 | Number of items on each page of items returned | Integer | No
 page | 1 | The page of paginated items returned | Integer | No
 limit | 10 | The total number of items returned. Ignored if :per_page is submitted | Integer | No
-ignore_current_client | false | Ignore the client and return items from all clients | Integer | No
+ignore_current_client | false | ??? Ignore the client and return items from all clients. Hide or return items for all clients the user belongs to ??? | Integer | No
 

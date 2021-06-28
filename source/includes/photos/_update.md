@@ -13,29 +13,29 @@ example_params = {
 ```json
 {
   "item": {
-    "id": 30,
-    "item_id": "22",
+    "id": 28,
+    "item_id": "56d844f6-ebdf-476e-932b-8b7ca565b77e",
     "image": {
-      "url": null,
+      "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/28/hancock.jpeg",
       "thumb": {
-        "url": null
+        "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/28/thumb_hancock.jpeg"
       },
       "large": {
-        "url": null
+        "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/28/large_hancock.jpeg"
       },
       "square": {
-        "url": null
+        "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/28/square_hancock.jpeg"
       },
       "portrait": {
-        "url": null
+        "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/28/portrait_hancock.jpeg"
       }
     },
     "width": null,
     "height": null,
-    "uuid": "73f5f971-c6d6-4495-b2bf-022380d27c23",
-    "created_at": "2021-06-18T10:09:05.000+01:00",
-    "updated_at": "2021-06-18T10:09:05.000+01:00",
-    "image_source_url": "https://i.kym-cdn.com/entries/icons/facebook/000/006/360/gottago.jpg",
+    "uuid": "ab0c490d-93aa-4ba0-beae-58d160ad0132",
+    "created_at": "2021-06-09T14:10:03.000+01:00",
+    "updated_at": "2021-06-28T12:39:50.000+01:00",
+    "image_source_url": null,
     "image_file_name": null,
     "image_tmp": null
   },
@@ -65,4 +65,4 @@ multipart/form-data
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-file | null | ??? ??? | String | Yes
+file | nil | A file upload | String | Yes |

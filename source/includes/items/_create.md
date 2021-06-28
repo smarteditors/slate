@@ -1,4 +1,4 @@
-## Create An Asset
+## Create An Item
 
 > `POST http://localhost:3000/api/v6/items`
 
@@ -30,11 +30,11 @@ example_example_params = {
       }
     ],
     
-    task_attributes: [
+    task_attributes: [ ??? remove? ???
       {
         completed: Boolean,
         completed_date: Date,
-        completed_by_id: Integer not present on task?
+        completed_by_id: Integer not present on task? 
       }
     ],
 
@@ -268,7 +268,7 @@ example_example_params = {
 }
 ```
 
-This endpoint creates a new Asset.
+This endpoint creates a new Item.
 
 ### HTTP Request
 
@@ -278,61 +278,65 @@ This endpoint creates a new Asset.
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-location_id | null | The ID of the location of the asset | Integer | Yes
-condition_id | null | The ID of the asset's condition | Integer | Yes | See the Conditions endpoint
-status_id | null | The ID of the asset's status | Integer | Yes | See the Statuses endpoint
-code | null | ??? | String | Yes
-usage | null | Whether the Asset is in use or unused | String | Yes | 'in_use', 'unused'
-project | null | ??? | String | No
-x | null | The x position of the asset on its location's floorplan ??? | Decimal | No
-y | null | The y position of the asset on its location's floorplan ??? | Decimal | No
-purchase_date | null | The purchase date | Date | No
-purchase_price_cents | null | The purchase price of the item in pence??? | Decimal | No
-room | null | A room identifier??? | String | No
-warranty | null | The warranty length in years | Integer | No
-warranty_info | null |  | Integer | No
-action_id | null | The ID of an Action the asset is ??? | Integer | No | See the Actions endpoint
-installation_date | null | ??? | Date | No
-life_expectancy | null | The life expectancy of the asset in years | Float | No
-catalogue_item_id | null | ??? | ??? | No
-condition_details | null | ??? | String | No
+location_id | nil | The ID of the location of the item | Integer | Yes
+condition_id | nil | The ID of the item's condition | Integer | Yes | See the Conditions endpoint
+status_id | nil | The ID of the item's status | Integer | Yes | See the Statuses endpoint
+code | nil | A free text code identifier | String | Yes
+usage | nil | Whether the Item is in use or unused | String | Yes | 'in_use', 'unused'
+project | nil | A free text project identifier | String | No
+x | nil | ??? The x position of the item on its location's floorplan. pixels or 0 to 1? ??? | Decimal | No
+y | nil | ??? The y position of the item on its location's floorplan. pixels or 0 to 1? ??? | Decimal | No
+purchase_date | nil | The purchase date | Date | No
+purchase_price_cents | nil | The purchase price of the item in pence??? | Decimal | No
+room | nil | A free text room identifier | String | No
+warranty | nil | The warranty length in years | Integer | No
+warranty_info | nil |  | Integer | No
+action_id | nil | an Action ID | Integer | No | See the Actions endpoint
+installation_date | nil | Installation date | Date | No
+life_expectancy | nil | The life expectancy of the item in years | Float | No
+catalogue_item_id | nil | ??? | ??? | No
+condition_details | nil | ??? Free text ??? | String | No
 
 
 ### Nested Photo Parameters
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-image | null | A photo of the asset | ??? | No | ???
+image | nil | A photo of the item | ??? | No | ???
 
+<!-- ??? remove ???
 ### Nested Task Parameters
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-completed
-completed_date
-completed_by_id
+completed | nil | Whether the task has been completed | Boolean | Yes |
+completed_date | nil | Date the task was completed | Date | No |
+completed_by_id | | | | | ??? needs removing from params as attribute doesn't exist on tasks ??? -->
 
 ### Nested Notes Parameters
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-user_id
-body
+user_id | nil | The id of a user | Integer | Yes |
+body | nil | The note content | Text | No ??? |
 
 ### Nested Item Attributes Parameters
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-catalogue_association_id
-catalogue_attribute_id
-catalogue_attribute_name
-catalogue_attribute_type
-value
+catalogue_association_id | | | | |
+catalogue_attribute_id | | | | |
+catalogue_attribute_name | | | | |
+catalogue_attribute_type | | | | |
+value | | | | |
 
+<!-- Remove 
 ### Nested Stamps Parameters
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-action_stamp
-wear_off_date
-purchase_price_cents
+action_stamp | nil | The type of stamp | Yes | String | See stamps/index
+wear_off_date | nil |  | No | Date |
+purchase_price_cents | 0 | ??? | No | Integer |
+
+??? doesn't this need :action_stamp_type? ??? -->

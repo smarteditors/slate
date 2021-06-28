@@ -1,4 +1,4 @@
-## Get a Specific Asset
+## Get A Specific Item
 
 > `GET http://localhost:3000/api/v6/items/fd4e6d48-db9a-4804-ab59-07cb438b65a8`
 
@@ -285,7 +285,7 @@
 }
 ```
 
-This endpoint retrieves a specific asset.
+This endpoint retrieves a specific item.
 
 ### HTTP Request
 
@@ -295,4 +295,4 @@ This endpoint retrieves a specific asset.
 
 Parameter | Description
 --------- | -----------
-ID | The uuid of the Asset to retrieve
+ID | The uuid of the Item to retrieve

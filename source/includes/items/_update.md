@@ -1,4 +1,4 @@
-## Update An Asset
+## Update An Item
 
 ```ruby
 example_params = {
@@ -28,7 +28,7 @@ example_params = {
       }
     ],
     
-    task_attributes: [
+    task_attributes: [ ??? remove? ???
       {
         completed: Boolean,
         completed_date: Date,
@@ -62,9 +62,6 @@ example_params = {
     ]
   }
 }
-
-api = EDi::APIClient
-api.items.put(2, params)
 ```
 
 > Example response
@@ -380,7 +377,7 @@ api.items.put(2, params)
 }
 ```
 
-This endpoint updates a specific Asset.
+This endpoint updates a specific Item.
 
 ### HTTP Request
 
@@ -394,4 +391,4 @@ ID | The uuid of the Item to update
 
 
 
-Copy paramaeters from create file, or share file 
+??? Copy paramaeters from create file, or share file ???

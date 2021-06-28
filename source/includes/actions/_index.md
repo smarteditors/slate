@@ -31,6 +31,8 @@
 
 This endpoint retrieves all Actions.
 
+??? explain what actions are ???
+
 ### HTTP Request
 
 `GET http://localhost:3000/api/v6/meta/actions`

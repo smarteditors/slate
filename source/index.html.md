@@ -41,7 +41,7 @@ includes:
   - locations/index
   - locations/show
   - locations/population
-  - locations/search
+  # - locations/search
 
   - photos/header
   - photos/create
@@ -74,13 +74,11 @@ search: true
 code_clipboard: true
 ---
 
-<!-- # Introduction
+# Introduction
 
-??? Replace intro ???
+The SmartED-i API is organised around REST. Our API has predictable resource-oriented URLs, accepts and returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+You can use the SmartED-i API in test mode, which does not affect your live data. The API key you use to authenticate the request determines whether the request is live mode or test mode.
 
-We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
-
-This example API documentation page was created with [Slate](https://github.com/slatedocs/slate). Feel free to edit it and use it as a base for your own API's documentation. -->
+The SmartED-i API differs for every account as we release new versions and tailor functionality.
 

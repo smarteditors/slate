@@ -5,7 +5,6 @@
 ```ruby
 example_params = {
   client_id: Integer,
-  transit: Boolean,
   store: Boolean,
   from: Integer,
   to: Integer
@@ -105,7 +104,6 @@ This endpoint retrieves locations based on search parameters.
 Parameter | Default | Description | Type | Required?
 --------- | ------- | ----------- | ---- | --------
 client_id | current client id | A client id, used to return locations linked to a specific client ??? should be uuid ??? | Integer | No
-transit | nil | If true, returns Transit type locations | Boolean | No ??? wrong. if you submit anything it considers it 'true'
 store | nil | If true, returns Store type locations | Boolean | No ??? wrong. if you submit anything it considers it 'true'
 from | nil | ??? A location ID (uuid?). Returns transit locations with the origin location specified | Integer | No
 to | nil | ??? A location ID (uuid?). Returns transit locations with the destination location specified | Integer | No

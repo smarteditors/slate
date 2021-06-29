@@ -27,14 +27,6 @@ example_params = {
         image: String ???
       }
     ],
-    
-    task_attributes: [ ??? remove? ???
-      {
-        completed: Boolean,
-        completed_date: Date,
-        completed_by_id: Integer not present on task?
-      }
-    ],
 
     notes_attributes: [
       {

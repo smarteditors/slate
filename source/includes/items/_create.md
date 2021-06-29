@@ -26,15 +26,7 @@ example_example_params = {
     
     photos_attributes: [
       {
-        image: String ???
-      }
-    ],
-    
-    task_attributes: [ ??? remove? ???
-      {
-        completed: Boolean,
-        completed_date: Date,
-        completed_by_id: Integer not present on task? 
+        image: String
       }
     ],
 
@@ -284,34 +276,29 @@ status_id | nil | The ID of the item's status | Integer | Yes | See the Statuses
 code | nil | A free text code identifier | String | Yes
 usage | nil | Whether the Item is in use or unused | String | Yes | 'in_use', 'unused'
 project | nil | A free text project identifier | String | No
-x | nil | ??? The x position of the item on its location's floorplan. pixels or 0 to 1? ??? | Decimal | No
-y | nil | ??? The y position of the item on its location's floorplan. pixels or 0 to 1? ??? | Decimal | No
+x | nil | The x position of the item on its location's floorplan | Decimal | No | 0 to 1
+y | nil | The y position of the item on its location's floorplan | Decimal | No | 0 to 1
 purchase_date | nil | The purchase date | Date | No
 purchase_price_cents | nil | The purchase price of the item in pence | Decimal | No
 room | nil | A free text room identifier | String | No
 warranty | nil | The warranty length in years | Integer | No
-warranty_info | nil |  | Integer | No
+warranty_info | nil | Free text warranty information | Integer | No
 action_id | nil | an Action ID | Integer | No | See the Actions endpoint
 installation_date | nil | Installation date | Date | No
 life_expectancy | nil | The life expectancy of the item in years | Float | No
 catalogue_item_id | nil | ??? | ??? | No
-condition_details | nil | ??? Free text ??? | String | No
+condition_details | nil | Free text information about item condition | String | No
 
 
 ### Nested Photo Parameters
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-image | nil | A photo of the item | ??? | No | ???
+image | nil | A file upload | String | No |
 
-<!-- ??? remove ???
-### Nested Task Parameters
+### Supported Media Types
 
-Parameter | Default | Description | Type | Required? | Options
---------- | ------- | ----------- | ---- | --------- | -------
-completed | nil | Whether the task has been completed | Boolean | Yes |
-completed_date | nil | Date the task was completed | Date | No |
-completed_by_id | | | | | ??? needs removing from params as attribute doesn't exist on tasks ??? -->
+multipart/form-data
 
 ### Nested Notes Parameters
 
@@ -329,14 +316,3 @@ catalogue_attribute_id | | | | |
 catalogue_attribute_name | | | | |
 catalogue_attribute_type | | | | |
 value | | | | |
-
-<!-- Remove 
-### Nested Stamps Parameters
-
-Parameter | Default | Description | Type | Required? | Options
---------- | ------- | ----------- | ---- | --------- | -------
-action_stamp | nil | The type of stamp | Yes | String | See stamps/index
-wear_off_date | nil |  | No | Date |
-purchase_price_cents | 0 | ??? | No | Integer |
-
-??? doesn't this need :action_stamp_type? ??? -->

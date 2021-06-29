@@ -17,8 +17,8 @@ includes:
   - sessions/user
   - sessions/logout
 
-  - actions/header
-  - actions/index
+  # - actions/header
+  # - actions/index
   # - actions/show
 
   - clients/header

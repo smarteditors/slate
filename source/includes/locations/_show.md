@@ -6,8 +6,8 @@
 
 ```json
 {
-  "id": 6,
-  "client_id": 7,
+  "uuid": "7dd46282-929f-4899-bb71-141d8c688454",
+  "client_id": "bb4867d3-1f26-4a0c-a645-4d185c9e9498",
   "parent_id": null,
   "sort_order": null,
   "name": "a location",
@@ -19,10 +19,7 @@
   "post_code": "postcode",
   "latitude": null,
   "longitude": null,
-  "uuid": "7dd46282-929f-4899-bb71-141d8c688454",
   "slug": "test-7f8fff95-fc9b-461b-b0be-1bf35424c67d",
-  "created_at": "2021-01-07T13:19:52.000+00:00",
-  "updated_at": "2021-01-07T13:19:52.000+00:00",
   "store": true,
   "x": null,
   "y": null,
@@ -42,11 +39,15 @@
   "previous_location_id": null,
   "_store_me_groups_for_transit": null,
   "items_total_count": 0,
+  "address": "full address",
   "has_children": false,
   "floorplan": {
-    "id": 3,
-    "location_id": 6,
+    "uuid": "17373e48-addf-4d81-a090-3b350c2d8641",
     "folder_id": 6,
+    "width": 400,
+    "height": 310,
+    "main": true,
+    "file_tmp": null,
     "file": {
       "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/floorplan/file/3/floorplan.png",
       "thumb": {
@@ -55,19 +56,13 @@
       "png": {
         "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/floorplan/file/3/png_floorplan_png.png"
       }
-    },
-    "width": 400,
-    "height": 310,
-    "main": true,
-    "uuid": "ae4ac21e-51e2-4319-8c38-b89544f42bc4",
-    "created_at": "2021-01-07T13:19:52.000+00:00",
-    "updated_at": "2021-01-07T13:19:52.000+00:00",
-    "file_tmp": null
+    }
   }
 }
 ```
 
 This endpoint retrieves a specific location.
+
 
 ### HTTP Request
 

@@ -18,8 +18,13 @@ example_params = {
 ```json
 {
   "item": {
-    "id": 30,
-    "item_id": "22",
+    "uuid": "73f5f971-c6d6-4495-b2bf-022380d27c23",
+    "item_uuid": "53cf8995-8d85-4339-a522-553bb2426069",
+    "width": null,
+    "height": null,
+    "image_source_url": "https://i.kym-cdn.com/entries/icons/facebook/000/006/360/gottago.jpg",
+    "image_file_name": null,
+    "image_tmp": null,
     "image": {
       "url": null,
       "thumb": {
@@ -34,15 +39,7 @@ example_params = {
       "portrait": {
         "url": null
       }
-    },
-    "width": null,
-    "height": null,
-    "uuid": "73f5f971-c6d6-4495-b2bf-022380d27c23",
-    "created_at": "2021-06-18T10:09:05.000+01:00",
-    "updated_at": "2021-06-18T10:09:05.000+01:00",
-    "image_source_url": "https://i.kym-cdn.com/entries/icons/facebook/000/006/360/gottago.jpg",
-    "image_file_name": null,
-    "image_tmp": null
+    }
   },
   "status": "created"
 }

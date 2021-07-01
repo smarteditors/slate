@@ -7,19 +7,16 @@
 ```json
 [
   {
-    "id": 6,
-    "logo": {
-      "url": null
-    },
+    "uuid": "38f5d5a1-52e6-4091-b9cf-2d9bc34efc3f",
     "name": "Dummy client",
     "slug": "dummy-client",
-    "uuid": "38f5d5a1-52e6-4091-b9cf-2d9bc34efc3f",
-    "created_at": "2020-11-09T13:09:18.000+00:00",
-    "updated_at": "2020-11-09T13:09:18.000+00:00",
     "can_link": false,
     "device_limit": null,
     "reuse_me_email": null,
-    "include_global_itemables": true
+    "include_global_itemables": true,
+    "logo": {
+      "url": null
+    }
   }
 ]
 ```

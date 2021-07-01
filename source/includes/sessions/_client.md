@@ -8,19 +8,16 @@
 {
   "success": true,
   "client": {
-    "id": 1,
-    "logo": {
-        "url": null
-    },
+    "uuid": "bb4867d3-1f26-4a0c-a645-4d185c9e9498",
     "name": "Baumbach LLC",
     "slug": "baumbach-llc",
-    "uuid": "bb4867d3-1f26-4a0c-a645-4d185c9e9498",
-    "created_at": "2020-11-09T13:08:37.000+00:00",
-    "updated_at": "2020-11-09T13:08:37.000+00:00",
     "can_link": false,
     "device_limit": null,
     "reuse_me_email": null,
-    "include_global_itemables": true
+    "include_global_itemables": true,
+    "logo": {
+        "url": null
+    }
   },
   "status": 200
 }

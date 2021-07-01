@@ -7,27 +7,24 @@
 ```json
 [
   {
-    "id": 1,
+    "uuid": "44f6ff1a-5dd0-43b7-a618-6be681cdb9cc",
     "name": "marked_regeneration",
     "label": "Marked for Regeneration",
     "description": null,
     "status_type": null,
-    "uuid": "44f6ff1a-5dd0-43b7-a618-6be681cdb9cc",
-    "created_at": "2020-11-09T13:08:36.000+00:00",
-    "updated_at": "2020-11-09T13:08:36.000+00:00",
     "reportable": true,
     "reprocessable": false,
     "archivable": false,
     "icon_name": null,
     "icon_family": null,
-    "icon": {
-        "url": null
-    },
     "width": null,
     "height": null,
     "client_id": null,
     "is_default": false,
-    "reusable": false
+    "reusable": false,
+    "icon": {
+        "url": null
+    }
   }
 ]
 ```

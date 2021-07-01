@@ -13,8 +13,13 @@ example_params = {
 ```json
 {
   "item": {
-    "id": 28,
+    "uuid": "ab0c490d-93aa-4ba0-beae-58d160ad0132",
     "item_id": "56d844f6-ebdf-476e-932b-8b7ca565b77e",
+    "width": null,
+    "height": null,
+    "image_source_url": null,
+    "image_file_name": null,
+    "image_tmp": null,
     "image": {
       "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/28/hancock.jpeg",
       "thumb": {
@@ -29,15 +34,7 @@ example_params = {
       "portrait": {
         "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/28/portrait_hancock.jpeg"
       }
-    },
-    "width": null,
-    "height": null,
-    "uuid": "ab0c490d-93aa-4ba0-beae-58d160ad0132",
-    "created_at": "2021-06-09T14:10:03.000+01:00",
-    "updated_at": "2021-06-28T12:39:50.000+01:00",
-    "image_source_url": null,
-    "image_file_name": null,
-    "image_tmp": null
+    }
   },
   "status": "updated"
 }

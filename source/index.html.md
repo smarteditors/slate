@@ -1,5 +1,5 @@
 ---
-title: API Reference
+title: SMartED-i API Reference
 
 # language_tabs: # must be one of https://git.io/vQNgJ
 #   - ruby
@@ -82,3 +82,23 @@ You can use the SmartED-i API in test mode, which does not affect your live data
 
 The SmartED-i API differs for every account as we release new versions and tailor functionality.
 
+
+# Authentication
+
+The SmartED-i API uses API keys to authenticate requests. You can view and manage your API keys in your SmartED-i API Dashboard.
+
+Test mode secret keys have the prefix `sk_test_` and live mode secret keys have the prefix `sk_live_`.
+
+Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth.
+
+> Provide your API key via the `key` header in every request.
+
+
+# Errors
+
+SmartED-i API uses conventional HTTP response codes to indicate the success or failure of an API request. 
+- Codes in the `2xx` range indicate success. 
+- Codes in the `4xx` range indicate an error that failed given the information provided (e.g., a required parameter was omitted, an asset update failed, etc.). 
+- Codes in the `5xx` range indicate an error with SmartED-i's servers (however these are extremely rare).
+
+> Some `4xx` errors that could be handled programmatically (e.g., an asset wasn't found) include an error code that briefly explains the error reported.

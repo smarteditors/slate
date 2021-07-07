@@ -120,7 +120,7 @@ This endpoint retrieves a specific Task
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v6/tasks/<ID>`
+`GET http://localhost:3000/api/v7/tasks/<ID>`
 
 ### URL Parameters
 

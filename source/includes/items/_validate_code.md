@@ -1,6 +1,6 @@
 ## Validate an Item code
 
-> `GET http://localhost:3000/api/v6/validate_code`
+> `GET http://localhost:3000/api/v7/validate_code`
 
 ```ruby
 example_params = {
@@ -12,7 +12,10 @@ example_params = {
 
 ```json
 {
-  "success": true,
+  "request_id": "bda19bfb-8fdd-4a75-90fd-8dd40a847fc9",
+  "authority": {
+    "email": "ian@eastenders.com"
+  },
   "in_use": false
 }
 ```
@@ -21,7 +24,7 @@ Item codes must be unique. This endpoint checks whether an Item code is already 
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v6/validate_code`
+`GET http://localhost:3000/api/v7/validate_code`
 
 ### Query Parameters
 

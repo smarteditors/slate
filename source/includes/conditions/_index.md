@@ -1,33 +1,30 @@
 ## Get All Conditions
 
-> `GET http://localhost:3000/api/v6/meta/conditions`
+> `GET http://localhost:3000/api/v7/meta/conditions`
 
 > Example response
 
 ```json
-[
-  {
-    "uuid": "87808deb-9732-4617-a7fd-7cf12345678",
-    "name": "good",
-    "label": "Good",
-    "description": null,
-    "colour": null,
-    "is_default": false
+{
+  "request_id": "a6e62255-6675-4bfc-b528-cd60d623beaf",
+  "authority": {
+    "email": "ian@eastenders.com"
   },
-  {
-    "uuid": "3d24662a-0ecb-4ef0-9b08-21451234567",
-    "name": "fair",
-    "label": "Fair",
-    "description": null,
-    "client_id": null,
-    "colour": null,
-    "is_default": false
-  }
-]
+  "conditions": [
+    {
+      "uuid": "87808deb-9732-4617-a7fd-7cf6cce6dd42",
+      "colour": null,
+      "description": null,
+      "is_default": false,
+      "label": "Good",
+      "name": "good"
+    }
+  ]
+}
 ```
 
 This endpoint retrieves all Item Conditions.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v6/meta/conditions`
+`GET http://localhost:3000/api/v7/meta/conditions`

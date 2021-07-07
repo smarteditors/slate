@@ -29,4 +29,4 @@ This endpoint creates a new Task.
 
 ### HTTP Request
 
-`POST http://localhost:3000/api/v6/tasks`
+`POST http://localhost:3000/api/v7/tasks`

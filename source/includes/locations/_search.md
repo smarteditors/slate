@@ -1,6 +1,6 @@
 ## Search
 
-> `GET http://localhost:3000/api/v6/meta/locations/search`
+> `GET http://localhost:3000/api/v7/meta/locations/search`
 
 ```ruby
 example_params = {
@@ -97,7 +97,7 @@ This endpoint retrieves locations based on search parameters.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v6/meta/locations/search`
+`GET http://localhost:3000/api/v7/meta/locations/search`
 
 ### Query Parameters
 

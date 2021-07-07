@@ -83,7 +83,7 @@ This endpoint retrieves a Store Me Group for ????
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v6/store_me_groups/<ID>`
+`GET http://localhost:3000/api/v7/store_me_groups/<ID>`
 
 ### URL Parameters
 

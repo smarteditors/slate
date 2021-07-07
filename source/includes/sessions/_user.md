@@ -1,27 +1,30 @@
 ## User
 
-> `GET http://localhost:3000/api/v6/sessions/user`
+> `GET http://localhost:3000/api/v7/sessions/user`
 
 > Example response
 
 ```json
 {
-  "success": true,
-  "user": {
-    "uuid": "5656d494-b4f8-4ee9-a48d-d3286d954a45",
-    "first_name": "ian",
-    "last_name": "beale",
-    "username": "ianbeale",
-    "token": "token",
-    "email": "ian@eastenders.com",
-    "slug": "ianbeale",
-    "settings": null,
-    "group": "user",
-    "accepted_terms": true,
-    "can_access_web": true,
-    "can_access_app": true
+  "request_id": "6d9afa34-9e1d-49f0-a384-e3d610bfc242",
+  "authority": {
+    "email": "ian@eastenders.com"
   },
-  "status": 200
+  "user": {
+    "uuid": "8daf62d3-f86e-47bf-9c39-d7cb6babd0b5",
+    "accepted_terms": false,
+    "can_access_app": true,
+    "can_access_web": true,
+    "client_id": "bb4867d3-1f26-4a0c-a645-4d185c9e9498",
+    "email": "ian@eastenders.com",
+    "first_name": "Ian",
+    "group": "user",
+    "last_name": "Beale",
+    "settings": null,
+    "slug": "ian_beale",
+    "token": "d76ee126-007b-44df-88f0-bd23add2583f",
+    "username": "ian_beale"
+  }
 }
 ```
 
@@ -29,4 +32,4 @@ This endpoint returns the current User.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v6/sessions/user`
+`GET http://localhost:3000/api/v7/sessions/user`

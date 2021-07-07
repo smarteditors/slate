@@ -1,6 +1,6 @@
 ## Get All Locations
 
-> `GET http://localhost:3000/api/v6/meta/locations`
+> `GET http://localhost:3000/api/v7/meta/locations`
 
 ```ruby
 example_params = {
@@ -20,55 +20,61 @@ example_params = {
 
 ```json
 {
-  "success": true,
+  "request_id": "41258d5f-9cb4-41e8-be15-92686f85d042",
+  "authority": {
+    "email": "ian@eastenders.com"
+  },
   "locations": [
     {
-      "uuid": "7dd46282-929f-4899-bb71-141d8c688454",
-      "client_id": "bb4867d3-1f26-4a0c-a645-4d185c9e9498",
-      "parent_id": null,
-      "sort_order": null,
-      "name": "a location",
-      "address_one": "a house",
-      "address_two": "a street",
-      "address_three": null,
-      "town": "a town",
-      "county": "a county",
-      "post_code": "postcode",
-      "latitude": null,
-      "longitude": null,
-      "slug": "test-7f8fff95-fc9b-461b-b0be-1bf35424c67d",
-      "store": true,
-      "x": null,
-      "y": null,
-      "color": null,
-      "absolute_path_name": "",
-      "items_count": 2,
-      "transit": false,
-      "from_location_uuid": null,
-      "to_location_uuid": null,
-      "transit_info": null,
-      "archived": false,
-      "levels": null,
-      "stacked_level": null,
-      "cubic_capacity": 0.0,
-      "sub_location_type": null,
-      "storage_type_id": null,
-      "previous_location_id": null,
+      "uuid": "5509613e-ee0e-403e-9de9-dc9f500c3dd3",
       "_store_me_groups_for_transit": null,
-      "items_total_count": 0,
-      "address": "full address"
+      "absolute_path_name": "test location",
+      "address": "line 1, line 2, town, county, SY16 3AN",
+      "address_one": "line 1",
+      "address_three": "line 3",
+      "address_two": "line 2",
+      "archived": false,
+      "client": {
+        "uuid": "bb4867d3-1f26-4a0c-a645-4d185c9e9498",
+        "name": "Baumbach LLC"
+      },
+      "color": null,
+      "county": "county",
+      "cubic_capacity": 0.0,
+      "from_location_uuid": null,
+      "items_count": 37,
+      "items_total_count": 37,
+      "latitude": null,
+      "levels": null,
+      "longitude": null,
+      "name": "test location",
+      "parent_id": null,
+      "post_code": "SY16 3AN",
+      "previous_location_id": null,
+      "slug": "test-location",
+      "sort_order": null,
+      "stacked_level": null,
+      "storage_type_id": null,
+      "store": false,
+      "sub_location_type": null,
+      "to_location_uuid": null,
+      "town": "town",
+      "transit": false,
+      "transit_info": null,
+      "x": null,
+      "y": null
     }
   ],
   "meta": {
     "pagination": {
       "Link": {
-        "first": "http://localhost:3000/api/v6/locations?page=1",
-        "last": "http://localhost:3000/api/v6/locations?page=1"
+        "first": "http://localhost:3000/api/v7/locations?page=1",
+        "last": "http://localhost:3000/api/v7/locations?page=1"
       },
       "Current-Page": "1",
       "Page-Items": "10",
       "Total-Pages": "1",
-      "Total-Count": "1"
+      "Total-Count": "3"
     }
   }
 }
@@ -78,7 +84,7 @@ This endpoint retrieves all root locations for the current client, or all child 
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v6/meta/locations`
+`GET http://localhost:3000/api/v7/meta/locations`
 
 ### Query Parameters
 

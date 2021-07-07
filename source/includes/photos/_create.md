@@ -1,6 +1,6 @@
 ## Create A Photo
 
-> `POST http://localhost:3000/api/v6/photos`
+> `POST http://localhost:3000/api/v7/photos`
 
 ```ruby
 example_params = {
@@ -17,14 +17,13 @@ example_params = {
 
 ```json
 {
-  "item": {
-    "uuid": "73f5f971-c6d6-4495-b2bf-022380d27c23",
-    "item_uuid": "53cf8995-8d85-4339-a522-553bb2426069",
-    "width": null,
+  "request_id": "ee821c97-c29c-496f-aa5f-43c37f3493a0",
+  "authority": {
+    "email": "ian@eastenders.com"
+  },
+  "photo": {
+    "uuid": "62d2791a-ca8b-4248-907c-7cc288c590a7",
     "height": null,
-    "image_source_url": "https://i.kym-cdn.com/entries/icons/facebook/000/006/360/gottago.jpg",
-    "image_file_name": null,
-    "image_tmp": null,
     "image": {
       "url": null,
       "thumb": {
@@ -39,9 +38,13 @@ example_params = {
       "portrait": {
         "url": null
       }
-    }
-  },
-  "status": "created"
+    },
+    "image_file_name": null,
+    "image_source_url": null,
+    "image_tmp": null,
+    "item_id": null,
+    "width": null
+  }
 }
 ```
 
@@ -50,7 +53,7 @@ This endpoint creates a new Photo record linked to an item. If the uuid of an ex
 
 ### HTTP Request
 
-`POST http://localhost:3000/api/v6/photos`
+`POST http://localhost:3000/api/v7/photos`
 
 
 ### Photo Parameters

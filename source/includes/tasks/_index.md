@@ -122,7 +122,7 @@ This endpoint retrieves all draft tasks for the current client or the assigned t
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v6/tasks`
+`GET http://localhost:3000/api/v7/tasks`
 
 ### Query Parameters
 

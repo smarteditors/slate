@@ -35,7 +35,7 @@ This endpoint retrieves all Store Me Groups for the current client.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v6/store_me_groups`
+`GET http://localhost:3000/api/v7/store_me_groups`
 
 ### Query Parameters
 

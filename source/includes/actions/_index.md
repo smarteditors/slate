@@ -1,6 +1,6 @@
 ## Get All Actions
 
-> `GET http://localhost:3000/api/v6/meta/actions`
+> `GET http://localhost:3000/api/v7/meta/actions`
 
 > Example response
 
@@ -35,4 +35,4 @@ This endpoint retrieves all Actions.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v6/meta/actions`
+`GET http://localhost:3000/api/v7/meta/actions`

@@ -29,7 +29,7 @@ This endpoint updates a specific Task.
 
 ### HTTP Request
 
-`PUT http://localhost:3000/api/v6/tasks/<ID>`
+`PUT http://localhost:3000/api/v7/tasks/<ID>`
 
 ### URL Parameters
 

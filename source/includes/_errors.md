@@ -1,6 +1,28 @@
 # Errors
 
-Smart-EDi uses the standard API error codes
+> Some `4xx` errors that could be handled programmatically (e.g., an asset wasn't found) include an error code that briefly explains the error reported.
+
+```json
+{
+  "request_id": "c9f7d475-9252-46e5-ba3d-c97fee579098",
+  "authority": {
+    "email": "ian@eastenders.com"
+  },
+  "message": "Invalid attributes, validation failed.",
+  "errors": [
+    "Location must exist",
+    "Condition can't be blank",
+    "Status can't be blank",
+    "Code has already been taken"
+  ]
+}
+```
+
+SmartED-i API uses conventional HTTP response codes to indicate the success or failure of an API request. 
+- Codes in the `2xx` range indicate success. 
+- Codes in the `4xx` range indicate an error that failed given the information provided (e.g., a required parameter was omitted, an asset update failed, etc.). 
+- Codes in the `5xx` range indicate an error with SmartED-i's servers (however these are extremely rare).
+
 
 <!-- 
 # Errors

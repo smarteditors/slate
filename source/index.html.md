@@ -1,5 +1,5 @@
 ---
-title: SMartED-i API Reference
+title: SmartED-i API Reference
 
 # language_tabs: # must be one of https://git.io/vQNgJ
 #   - ruby
@@ -67,6 +67,45 @@ includes:
 
   - users/header
   - users/index
+
+
+  # catalogue api
+  - asset_attributes/header
+  - asset_attributes/index
+
+  - attribute_associations/header
+  - attribute_associations/index
+
+  - attributes/header
+  - attributes/index
+
+  - catalogue_items/header
+  - catalogue_items/index
+  - catalogue_items/show
+  - catalogue_items/search
+  - catalogue_items/filter
+  - catalogue_items/code_search
+  - catalogue_items/check_code
+  # - catalogue_items/create
+
+  - catalogue_photos/header
+  - catalogue_photos/update
+
+  - catalogues/header
+  - catalogues/index
+  - catalogues/show
+
+  - categories/header
+  - categories/index
+  - categories/show
+  - categories/search
+
+  - colour_board_colours/header
+  - colour_board_colours/index
+  
+  - types/header
+  - types/index
+  - types/show
 
 search: true
 

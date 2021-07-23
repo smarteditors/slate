@@ -3,7 +3,7 @@
 > `POST http://localhost:3000/api/v7/items`
 
 ```ruby
-example_example_params = {
+example_params = {
   item: {
     location_id: Integer,
     condition_id: Integer,

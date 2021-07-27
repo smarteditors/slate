@@ -8,16 +8,19 @@ toc_footers:
   - <a href='#'>Sign Up for a Developer Key</a>
   - <a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a>
 
-includes:
-  - authorisation/authorisation
-  - errors
-
+includes_edi:
+  - introductions/_edi
+  - authentication
+  - authorisation
   - sessions/header
   - sessions/authenticate
   - sessions/client
   - sessions/user
   - sessions/logout
+  - errors
 
+includes_assets:
+  - introductions/_assets
   # - actions/header
   # - actions/index
   # - actions/show
@@ -68,8 +71,10 @@ includes:
   - users/header
   - users/index
 
-
   # catalogue api
+includes_catalogue:
+  - introductions/catalogue
+
   - asset_attributes/header
   - asset_attributes/index
 
@@ -86,7 +91,7 @@ includes:
   - catalogue_items/filter
   - catalogue_items/code_search
   - catalogue_items/check_code
-  # - catalogue_items/create
+  - catalogue_items/create
 
   - catalogue_photos/header
   - catalogue_photos/update
@@ -111,22 +116,3 @@ search: true
 
 code_clipboard: true
 ---
-
-# Introduction
-
-The SmartED-i API is organised around REST. Our API has predictable resource-oriented URLs, accepts and returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
-
-You can use the SmartED-i API in test mode, which does not affect your live data. The API key you use to authenticate the request determines whether the request is live mode or test mode.
-
-The SmartED-i API differs for every account as we release new versions and tailor functionality.
-
-
-# Authentication
-
-The SmartED-i API uses API keys to authenticate requests. You can view and manage your API keys in your SmartED-i API Dashboard.
-
-Test mode secret keys have the prefix `sk_test_` and live mode secret keys have the prefix `sk_live_`.
-
-Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth.
-
-> Provide your API key via the `key` header in every request.

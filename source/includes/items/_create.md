@@ -196,10 +196,13 @@ body | nil | The note content | Text | No ??? |
 
 ### Nested Item Attributes Parameters
 
+??? ItemAttributes desciption ??? 
+All ItemAttributes should only represent Item specific values for AttributeAssociations linked to the Catalogue Item which the Item is also linked to  
+
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-catalogue_association_id | | | | |
-catalogue_attribute_id | | | | |
-catalogue_attribute_name | | | | |
-catalogue_attribute_type | | | | |
-value | | | | |
+catalogue_association_id | nil | ??? The uuid of the corresponding AttributeAssociation of the Catalogue Item | String | |
+catalogue_attribute_id | nil | ??? The uuid of the Attribute | String | |
+catalogue_attribute_name | nil | The name of the Attribute | String | |
+catalogue_attribute_type | nil | The Type of the Attribute | String | |
+value | nil | The value of the Attribute for this specific Item | String | |

@@ -178,7 +178,6 @@ uuid | nil | The uuid of an Item. If a uuid is prvided the Item will be updated 
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-
 attribute_id | nil | The uuid of attribute to be linked to the Item by the AttributeAssociation | String | Yes |
 value | nil | The value ??? | String | No |
 position | nil | The position of the AttributeAssociation in the list | Integer | No |

@@ -81,8 +81,8 @@ includes_catalogue:
   - attribute_associations/header
   - attribute_associations/index
 
-  - attributes/header
-  - attributes/index
+  # - attributes/header
+  # - attributes/index
 
   - catalogue_items/header
   - catalogue_items/check_code

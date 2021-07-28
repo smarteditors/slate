@@ -37,8 +37,8 @@ example_params = {
 
     item_attributes_attributes: [
       {
-        catalogue_association_id: Integer,
-        catalogue_attribute_id: Integer,
+        catalogue_association_id: String,
+        catalogue_attribute_id: String,
         catalogue_attribute_name: String,
         catalogue_attribute_type: String,
         value: Text
@@ -92,9 +92,8 @@ example_params = {
       "uuid": "5509613e-ee0e-403e-9de9-dc9f500c3dd3",
       "name": "location name"
     },
-    "photo": null,
-    "photo_large_url": null,
-    "photo_url": null,
+    "photo_large_url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/50/large_hancock.jpeg",
+    "photo_url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/50/hancock.jpeg",
     "pre_charged_for_disposal": false,
     "project": "sdd123465",
     "purchase_date": "2021-06-08T00:00:00.000+01:00",
@@ -116,6 +115,16 @@ example_params = {
     "y": null,
     "years_remaining": 0
   },
+  "item_attributes": [
+    {
+        "uuid": "949f8ca5-49f3-460a-a4f4-82b655ccf481",
+        "catalogue_association_id": "43e45bf6-6033-497b-b27f-864d4869a22b",
+        "catalogue_attribute_id": "7398e8f9-e760-4e60-aa38-6daa3eaf8e97",
+        "catalogue_attribute_name": "upholstery material",
+        "catalogue_attribute_type": "new chair",
+        "value": "plastic"
+    }
+  ],
   "notes": [
     {
       "uuid": "7e51e0d2-1d62-4e94-b1d7-1654b51517f4",
@@ -125,6 +134,32 @@ example_params = {
       "note_type": null,
       "updated_at": "2021-07-07T12:27:47.000+01:00",
       "user_id": "5656d494-b4f8-4ee9-a48d-d3286d954a45"
+    }
+  ],
+  "photos": [
+    {
+      "uuid": "f353e513-884b-4e8a-a620-2c78cc8ad00e",
+      "height": null,
+      "image": {
+        "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/50/hancock.jpeg",
+        "thumb": {
+          "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/50/thumb_hancock.jpeg"
+        },
+        "large": {
+          "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/50/large_hancock.jpeg"
+        },
+        "square": {
+          "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/50/square_hancock.jpeg"
+        },
+        "portrait": {
+          "url": "https://awesome-assets-bucket.s3.amazonaws.com/development/uploads/photo/image/50/portrait_hancock.jpeg"
+        }
+      },
+      "image_file_name": null,
+      "image_source_url": null,
+      "image_tmp": null,
+      "item_id": "6f6e1ce5-24d0-4a5c-8e19-28dfa31537be",
+      "width": null
     }
   ],
   "stamps": [

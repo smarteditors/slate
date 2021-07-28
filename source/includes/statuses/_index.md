@@ -28,7 +28,7 @@
       "reportable": true,
       "reprocessable": false,
       "reusable": false,
-      "status_type": null,
+      "status_type": "regeneration",
       "width": null
     }
   ]

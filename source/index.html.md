@@ -85,13 +85,13 @@ includes_catalogue:
   - attributes/index
 
   - catalogue_items/header
-  - catalogue_items/index
-  - catalogue_items/show
-  - catalogue_items/search
-  - catalogue_items/filter
-  - catalogue_items/code_search
   - catalogue_items/check_code
   - catalogue_items/create
+  - catalogue_items/filter
+  - catalogue_items/index
+  - catalogue_items/show
+  # - catalogue_items/search
+  # - catalogue_items/code_search
 
   - catalogue_photos/header
   - catalogue_photos/update

@@ -1,3 +1,3 @@
 # Photos
 
-??? reponse returns json with key 'item', instead of 'photo' 
+Asset items can have multiple Photos.

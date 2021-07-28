@@ -2,7 +2,7 @@
 
 > `GET http://localhost:3001/api/v6/attribute_associations`
 
-> Example response
+> Example response ??? attributes duplicated in json
 
 ```json
 {
@@ -15,14 +15,20 @@
       "uuid": "b345adb5-fa72-409f-9d2c-082c552b21af",
       "attribute_id": "43e45bf6-6033-497b-b27f-864d4869a22b",
       "attribute_type": "multiple_select",
+      "owner_attribute": {
+        "uuid": "43e45bf6-6033-497b-b27f-864d4869a22b",
+        "field_name": "upholstery_material",
+        "field_type": "multiple_select",
+        "field_values": "plastic,nylon,wood",
+        "name": "upholstery material"
+      },
       "owner_id": "19b8af37-6dbc-49c3-9333-6e79b77980b0",
       "owner_type": "Type",
       "position": 0,
       "required": true,
       "value": [
         "plastic",
-        "nylon",
-        "wood"
+        "nylon"
       ],
       "variable": false
     }

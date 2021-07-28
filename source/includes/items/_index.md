@@ -50,7 +50,6 @@ example_params = {
         "uuid": "5509613e-ee0e-403e-9de9-dc9f500c3dd3",
         "name": "location name"
       },
-      "photo": null,
       "photo_large_url": null,
       "photo_url": null,
       "pre_charged_for_disposal": false,

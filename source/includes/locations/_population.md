@@ -31,7 +31,7 @@
 }
 ```
 
-This endpoint retrieves items stored at a specific location.
+This endpoint retrieves all Items stored at a specific location.
 
 ### HTTP Request
 

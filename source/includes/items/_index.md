@@ -43,7 +43,6 @@ example_params = {
       "condition_details": null,
       "in_storage": false,
       "installation_date": null,
-      "item_attributes": [],
       "item_attributes_count": 0,
       "life_expectancy": 0.0,
       "location": {
@@ -61,7 +60,6 @@ example_params = {
       "room": "new",
       "sale_price": 120.0,
       "slug": "6e6ce1459d4d78780f88",
-      "stamps_count": 11,
       "status": {
         "uuid": "69bd2c6f-7311-421c-b956-4c55955ebe63",
         "name": "waiting_regeneration"
@@ -105,5 +103,4 @@ location_id | nil | The uuid of the locaton for which you want the items | Strin
 per_page | 10 | Number of items on each page of items returned | Integer | No
 page | 1 | The page of paginated items returned | Integer | No
 limit | 10 | The total number of items returned. Ignored if :per_page is submitted | Integer | No
-ignore_current_client | false | ??? Ignore the client and return items from all clients. Need to hide or return items for all clients the user belongs to ??? | Integer | No
 

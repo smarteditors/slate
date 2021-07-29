@@ -13,9 +13,15 @@
   "colours": [
     {
       "uuid": "21c03cc0-5d19-48c1-b346-a0e2fd4114cd",
-      "colour_type": null,
-      "name": "test colour",
-      "value": null
+      "colour_type": "colour",
+      "name": "Green",
+      "value": "#29ff00"
+    },
+    {
+      "uuid": "21c03cc0-5d19-48c1-b346-a0e2fd411dsd",
+      "colour_type": "pattern",
+      "name": "Maple Wood",
+      "value": "#f00"
     }
   ]
 }

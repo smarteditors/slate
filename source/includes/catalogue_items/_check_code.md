@@ -13,7 +13,6 @@
   "item": {
     "uuid": "e4f05457-9153-435d-9502-04cb7f8ba0ea",
     "archived": false,
-    "attribute_associations": [],
     "catalogue": {
       "uuid": "91eef228-5a8d-4eb5-9a44-22af1c6307d0",
       "name": "dvzdv"
@@ -88,7 +87,28 @@
     },
     "used_for": [],
     "weight": null
-  }
+  },
+  "attribute_associations": [
+    {
+      "uuid": "ba7077e2-ac02-4fb4-aceb-7e0c9ce950cb",
+      "_value": "",
+      "attribute_id": "43e45bf6-6033-497b-b27f-864d4869a22b",
+      "attribute_type": "multiple_select",
+      "owner_attribute": {
+        "uuid": "43e45bf6-6033-497b-b27f-864d4869a22b",
+        "field_name": "upholstery_material",
+        "field_type": "multiple_select",
+        "field_values": "plastic,nylon,wood",
+        "name": "upholstery material"
+      },
+      "owner_id": "4e336014-79bd-48d1-97d9-1a64254f18c9",
+      "owner_type": "Item",
+      "position": 2,
+      "required": true,
+      "value": "",
+      "variable": false
+    }
+  ]
 }
 ```
 

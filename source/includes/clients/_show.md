@@ -23,7 +23,7 @@
 }
 ```
 
-This endpoint retrieves a specific client.
+This endpoint retrieves a specific Client.
 
 ### HTTP Request
 

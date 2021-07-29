@@ -21,7 +21,7 @@ example_params = {
     action_id: Integer,
     installation_date: Date, 
     life_expectancy: Float,
-    catalogue_item_id: ???,
+    catalogue_item_id: String,
     condition_details: String,
     
     photos_attributes: [
@@ -44,14 +44,6 @@ example_params = {
         catalogue_attribute_name: String,
         catalogue_attribute_type: String,
         value: Serializable Text
-      }
-    ],
-
-    stamps_attributes: [
-      {
-        action_stamp: String,
-        wear_off_date: Date,
-        purchase_price_cents: Integer
       }
     ]
   }
@@ -105,7 +97,6 @@ example_params = {
     "room": "new",
     "sale_price": 120.0,
     "slug": "6e6ce1459d4d78780f88",
-    "stamps_count": 11,
     "status": {
       "uuid": "69bd2c6f-7311-421c-b956-4c55955ebe63",
       "name": "waiting_regeneration"
@@ -163,21 +154,6 @@ example_params = {
       "item_id": "6f6e1ce5-24d0-4a5c-8e19-28dfa31537be",
       "width": null
     }
-  ],
-  "stamps": [
-    {
-      "uuid": "74e36833-09ae-4189-8df1-6d5f771851dd",
-      "action_stamp": "estate_reused_and_refreshed",
-      "action_stamp_type": 0,
-      "created_at": "2021-06-01T09:17:55.000+01:00",
-      "item_id": "6f6e1ce5-24d0-4a5c-8e19-28dfa31537be",
-      "location_id": "5509613e-ee0e-403e-9de9-dc9f500c3dd3",
-      "previous_location_id": null,
-      "purchase_price_cents": null,
-      "purchase_price_currency": "GBP",
-      "status_id": "13c99ef3-70df-43b9-9638-5a5303a0ce81",
-      "wear_off_date": "2021-09-01T01:00:00.000+01:00"
-    }
   ]
 }
 ```
@@ -199,8 +175,8 @@ action_id | nil | an Action uuid | String | No | See the Actions endpoint
 code | nil | A free text code identifier | String | Yes
 usage | nil | Whether the Item is in use or unused | String | Yes | 'in_use', 'unused'
 project | nil | A free text project identifier | String | No
-x | nil | The x position of the item on its location's floorplan | Decimal | No | 0 to 1
-y | nil | The y position of the item on its location's floorplan | Decimal | No | 0 to 1
+x | nil | The x position of the item on its location's floorplan | Decimal | No | 0.0 to 1.0
+y | nil | The y position of the item on its location's floorplan | Decimal | No | 0.0 to 1.0
 purchase_date | nil | The purchase date | Date | No
 purchase_price_cents | nil | The purchase price of the item in pence | Decimal | No
 room | nil | A free text room identifier | String | No
@@ -208,7 +184,7 @@ warranty | nil | The warranty length in years | Integer | No
 warranty_info | nil | Free text warranty information | Integer | No
 installation_date | nil | Installation date | Date | No
 life_expectancy | nil | The life expectancy of the item in years | Float | No
-catalogue_item_id | nil | ??? | ??? | No
+catalogue_item_id | nil | The uuid of a Catalogue | String | No
 condition_details | nil | Free text information about item condition | String | No
 
 
@@ -227,7 +203,7 @@ multipart/form-data
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
 user_id | nil | The uuid of a user | String | Yes |
-body | nil | The note content | Text | No ??? |
+body | nil | The note content | Text | Yes |
 
 ### Nested Item Attributes Parameters
 
@@ -236,8 +212,8 @@ All ItemAttributes should only represent Item specific values for AttributeAssoc
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-catalogue_association_id | nil | ??? The uuid of the corresponding AttributeAssociation of the Catalogue Item | String | |
-catalogue_attribute_id | nil | ??? The uuid of the Attribute | String | |
-catalogue_attribute_name | nil | The name of the Attribute | String | |
-catalogue_attribute_type | nil | The Type of the Attribute | String | |
-value | nil | The value of the Attribute for this specific Item | String | |
+catalogue_association_id | nil | The uuid of the corresponding AttributeAssociation of the Catalogue Item | String | No |
+catalogue_attribute_id | nil | The uuid of the Attribute | String | No |
+catalogue_attribute_name | nil | The name of the Attribute | String | No |
+catalogue_attribute_type | nil | The Type of the Attribute | String | No |
+value | nil | The value of the Attribute for this specific Item | String | No |

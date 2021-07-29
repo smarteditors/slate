@@ -27,7 +27,6 @@ example_params = {
   "locations": [
     {
       "uuid": "5509613e-ee0e-403e-9de9-dc9f500c3dd3",
-      "_store_me_groups_for_transit": null,
       "absolute_path_name": "test location",
       "address": "line 1, line 2, town, county, SY16 3AN",
       "address_one": "line 1",

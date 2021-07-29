@@ -1,3 +1,5 @@
+Not used in public API
+
 ## Get All Actions
 
 > `GET http://localhost:3000/api/v7/meta/actions`

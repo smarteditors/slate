@@ -49,7 +49,6 @@
     "room": "new",
     "sale_price": 120.0,
     "slug": "6e6ce1459d4d78780f88",
-    "stamps_count": 11,
     "status": {
       "uuid": "69bd2c6f-7311-421c-b956-4c55955ebe63",
       "name": "waiting_regeneration"
@@ -106,21 +105,6 @@
       "image_tmp": null,
       "item_id": "6f6e1ce5-24d0-4a5c-8e19-28dfa31537be",
       "width": null
-    }
-  ],
-  "stamps": [
-    {
-      "uuid": "74e36833-09ae-4189-8df1-6d5f771851dd",
-      "action_stamp": "estate_reused_and_refreshed",
-      "action_stamp_type": 0,
-      "created_at": "2021-06-01T09:17:55.000+01:00",
-      "item_id": "6f6e1ce5-24d0-4a5c-8e19-28dfa31537be",
-      "location_id": "5509613e-ee0e-403e-9de9-dc9f500c3dd3",
-      "previous_location_id": null,
-      "purchase_price_cents": null,
-      "purchase_price_currency": "GBP",
-      "status_id": "13c99ef3-70df-43b9-9638-5a5303a0ce81",
-      "wear_off_date": "2021-09-01T01:00:00.000+01:00"
     }
   ]
 }

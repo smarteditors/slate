@@ -32,8 +32,6 @@ example_params = {
 
 This endpoint sets the current Client.
 
-??? currenlty possible to select clients the user isn't linked to ???
-
 ### HTTP Request
 
 `PUT http://localhost:3000/api/v7/clients/set_current_client`

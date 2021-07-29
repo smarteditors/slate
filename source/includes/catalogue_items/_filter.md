@@ -101,3 +101,5 @@ This endpoint retrieves a list of Catalogue Items filtered by a search term on t
 Parameter | Default | Description | Type | Required?
 --------- | ------- | ----------- | ---- | --------
 filters | nil | ??? | String | No
+
+??? Not sure what this takes. can take a string, but also a hash? ???

@@ -35,7 +35,7 @@
 }
 ```
 
-This endpoint retrieves all available item Statuses.
+This endpoint retrieves all item Statuses for the current Client.
 
 ### HTTP Request
 

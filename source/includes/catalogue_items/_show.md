@@ -88,7 +88,35 @@
     "used_for": [],
     "weight": null
   },
-  "attribute_associations": []
+  "attribute_associations": [
+    {
+      "uuid": "d8f4b105-51a4-46c0-ac04-85bdd3bb9387",
+      "_value": [
+        "plastic",
+        "nylon",
+        "wood"
+      ],
+      "attribute_id": "c4461f7f-0766-4432-9cd3-8954cf3f02b4",
+      "attribute_type": "colour",
+      "owner_attribute": {
+        "uuid": "c4461f7f-0766-4432-9cd3-8954cf3f02b4",
+        "field_name": "base_colour",
+        "field_type": "colour",
+        "field_values": "",
+        "name": "base colour"
+      },
+      "owner_id": "b39709d1-d080-436d-96c3-e98d8348b16f",
+      "owner_type": "Item",
+      "position": 0,
+      "required": true,
+      "value": [
+        "plastic",
+        "nylon",
+        "wood"
+      ],
+      "variable": false
+    }
+  ]
 }
 ```
 

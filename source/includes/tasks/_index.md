@@ -1,3 +1,5 @@
+Not used in public API
+
 ## Get All Tasks
 
 ```ruby

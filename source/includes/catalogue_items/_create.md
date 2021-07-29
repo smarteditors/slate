@@ -113,7 +113,11 @@ example_params = {
   "attribute_associations": [
     {
       "uuid": "d8f4b105-51a4-46c0-ac04-85bdd3bb9387",
-      "_value": [],
+      "_value": [
+        "plastic",
+        "nylon",
+        "wood"
+      ],
       "attribute_id": "c4461f7f-0766-4432-9cd3-8954cf3f02b4",
       "attribute_type": "colour",
       "owner_attribute": {
@@ -127,26 +131,11 @@ example_params = {
       "owner_type": "Item",
       "position": 0,
       "required": true,
-      "value": "???",
-      "variable": false
-    },
-    {
-      "uuid": "c228bb11-1323-4911-8f9b-ee4adbb28b1d",
-      "_value": [],
-      "attribute_id": "201f0912-c111-4b2b-98e7-8fbfef6a976c",
-      "attribute_type": "colour",
-      "owner_attribute": {
-        "uuid": "201f0912-c111-4b2b-98e7-8fbfef6a976c",
-        "field_name": "upholstery_colour",
-        "field_type": "colour",
-        "field_values": "",
-        "name": "upholstery colour"
-      },
-      "owner_id": "b39709d1-d080-436d-96c3-e98d8348b16f",
-      "owner_type": "Item",
-      "position": 0,
-      "required": true,
-      "value": "???",
+      "value": [
+        "plastic",
+        "nylon",
+        "wood"
+      ],
       "variable": false
     }
   ]
@@ -179,5 +168,5 @@ uuid | nil | The uuid of an Item. If a uuid is prvided the Item will be updated 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
 attribute_id | nil | The uuid of attribute to be linked to the Item by the AttributeAssociation | String | Yes |
-value | nil | The value ??? | String | No |
+value | nil | The value of the Attribute | String | No |
 position | nil | The position of the AttributeAssociation in the list | Integer | No |

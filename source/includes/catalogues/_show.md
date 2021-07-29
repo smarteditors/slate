@@ -12,8 +12,9 @@
   },
   "catalogue": {
     "uuid": "91eef228-5a8d-4eb5-9a44-22af1c6307d0",
+    "catalogue_type": "ff_e",
     "client_id": "bb4867d3-1f26-4a0c-a645-4d185c9e9498",
-    "name": "dvzdv"
+    "name": "catalogue 1"
   }
 }
 ```

@@ -19,7 +19,6 @@ example_params = {
   "item": {
     "uuid": "23e256c1-03a4-4b18-90b8-486505365e16",
     "archived": false,
-    "attribute_associations": [],
     "category": {
       "uuid": "d55010cb-5d05-4749-b6b4-f08070cc21bb",
       "archived": false,

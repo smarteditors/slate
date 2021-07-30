@@ -33,7 +33,6 @@
     },
     "client_id": "bb4867d3-1f26-4a0c-a645-4d185c9e9498",
     "code": "sacsa",
-    "components": [],
     "confirmed": true,
     "csr_confirmation": false,
     "cubic": 3.0,

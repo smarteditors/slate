@@ -103,7 +103,7 @@
       },
       "owner_id": "4e336014-79bd-48d1-97d9-1a64254f18c9",
       "owner_type": "Item",
-      "position": 2,
+      "position": 1,
       "required": true,
       "value": "",
       "variable": false

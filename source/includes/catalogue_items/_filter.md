@@ -1,6 +1,6 @@
-## Filter Catalogue Items on Attributes????
+## Filter Catalogue Items
 
-> `GET http://localhost:3001/api/v6/items/filter????`
+> `GET http://localhost:3001/api/v6/items/filter`
 
 > Example response
 
@@ -14,7 +14,6 @@
     {
       "uuid": "e4f05457-9153-435d-9502-04cb7f8ba0ea",
       "archived": false,
-      "attribute_associations": [],
       "category": {
         "uuid": "d55010cb-5d05-4749-b6b4-f08070cc21bb",
         "archived": false,

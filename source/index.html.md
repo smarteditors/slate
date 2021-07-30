@@ -87,7 +87,7 @@ includes_catalogue:
   - catalogue_items/header
   - catalogue_items/check_code
   - catalogue_items/create
-  - catalogue_items/filter
+  # - catalogue_items/filter
   - catalogue_items/index
   - catalogue_items/show
   # - catalogue_items/search

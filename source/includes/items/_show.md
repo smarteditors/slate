@@ -31,7 +31,6 @@
     "condition_details": null,
     "in_storage": false,
     "installation_date": null,
-    "item_attributes": [],
     "item_attributes_count": 0,
     "life_expectancy": 0.0,
     "location": {

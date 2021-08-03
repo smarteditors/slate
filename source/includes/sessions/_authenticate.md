@@ -37,7 +37,7 @@ example_params = {
 }
 ```
 
-This endpoint authenticates a User.
+This endpoint authenticates a User. Once authenticated endpoints can be accessed provided a valid token is submitted in the request header.
 
 ### HTTP Request
 

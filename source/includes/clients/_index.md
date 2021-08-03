@@ -25,7 +25,7 @@
 }
 ```
 
-This endpoint retrieves a list of Clients which the current user has access to.
+This endpoint retrieves a list of Clients which the current User has access to.
 
 ### HTTP Request
 

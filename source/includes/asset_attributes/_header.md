@@ -1,7 +1,5 @@
 # Asset Attributes
 
-Asset Attributes can include things like colour, material, size etc. 
+Asset Attributes can include things like colour, material, and size, and are linked to Catalogue Items. 
 
-This endpoint accesses Attributes linked to an Item. They are not the same as ItemAttributes linked to a different type of Item. Oh no!
-
-??? Can we differentiate between items and items? Asset reserved, so possibly AssetItem ???
+They can be static, i.e. only have one possible value, or dynamic, having multiple possible values, e.g. a colour attribute that can be either blue or black for a Catalogue Item.

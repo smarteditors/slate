@@ -1,3 +1,3 @@
 # Photos
 
-Asset items can have multiple Photos.
+Items can have multiple Photos.

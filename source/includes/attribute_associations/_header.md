@@ -1,4 +1,5 @@
 # Attribute Associations
 
-AttributeAssociations link Atrributes to catalogue Items and can store a value where the AssetAttribute is dynamic. 
-??? something about how additional data can be stored on assets if not shared by all items of a model/kind. 
+Attribute Associations link Asset Attributes to Catalogue Items.
+
+Where the Asset Attribute is dynamic, the value for a specific Item is stored in an association on the Item, e.g. a Catalogue Item could include Items that are blue or black, so each Item belonging to the Catalogue Item would have an associated ItemAttribute referencing the Attribute Association and recording the colour of that Item (see Items endpoints).

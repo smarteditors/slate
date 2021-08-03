@@ -1,8 +1,9 @@
 # Catalogue API Introduction
 
-??? Catalogue API endpoints deal with the organisation of kinds of items.
+Catalogue API endpoints deal with the categorisation of Items in the Asset API.
 
-Increasingly granular categories
-Catalogue > Type > Category > Catalogue Item
+Catalogue API classes consist of increasingly granular kinds in the heirarchy: 
 
-All assets are an example of a Catalogue Item.
+Catalogue > Category > Type > Catalogue Item
+
+Items in the Asset API are phsical items, such a chair in an office, and they all belong to a Catalogue Item.

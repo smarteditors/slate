@@ -1,4 +1,4 @@
-## Get an Item by Code
+## Get a Catalogue Item by Code
 
 > `GET https://catalogue.smarteditors.co.uk/api/v6/catalogue_items/check_code`
 
@@ -111,7 +111,7 @@
 }
 ```
 
-This endpoint retrieves an Item by the Item's code. 
+This endpoint retrieves a Catalogue Item by its code. 
 
 ### HTTP Request
 
@@ -122,4 +122,4 @@ This endpoint retrieves an Item by the Item's code.
 
 Parameter | Default | Description | Type | Required?
 --------- | ------- | ----------- | ---- | --------
-code | nil | An Item code | String | No
+code | nil | A Catalogue Item code | String | No

@@ -1,4 +1,4 @@
-## Create An Catalogue Item
+## Create A Catalogue Item
 
 > `POST https://catalogue.smarteditors.co.uk/api/v6/catalogue_items`
 
@@ -141,7 +141,7 @@ example_params = {
 }
 ```
 
-This endpoint creates a new Item. If an Item uuid is provided, the item will be updated instead.
+This endpoint creates a new Catalogue Item. If a Catalogue Item uuid is provided, the Catalogue Item will be updated instead.
 
 ### HTTP Request
 
@@ -151,21 +151,21 @@ This endpoint creates a new Item. If an Item uuid is provided, the item will be 
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-archived | false | Whether the Item is archived or not | Boolean | No
-client_id | nil | The uuid of the Client the Item belongs to | String | Yes
+archived | false | Whether the Catalogue Item is archived or not | Boolean | No
+client_id | nil | The uuid of the Client the Catalogue Item belongs to | String | Yes
 code | nil | A free text code identifier | String | Yes
-confirmed | false | Whether the Item is confirmed or not | Boolean | No
-name | 'Remove my NULL??? | The uuid of the location of the item | String | No
+confirmed | false | Whether the Catalogue Item is confirmed or not | Boolean | No
+name | 'Remove my NULL??? | The uuid of the location of the Catalogue Item | String | No
 sfg | nil | An SFG20??? code | String | No
-status | nil | The item status | String | No | 'estate_reuse', 'awaiting_decision', 'non_estate_reuse', 'for_review'
-type_id | nil | The uuid of the Item's Type | String | Yes | See the Statuses endpoint
-uuid | nil | The uuid of an Item. If a uuid is prvided the Item will be updated instead of a new one created. | String | Yes | See the Statuses endpoint
+status | nil | The Catalogue Item's Status | String | No | 'estate_reuse', 'awaiting_decision', 'non_estate_reuse', 'for_review'
+type_id | nil | The uuid of the Catalogue Item's Type | String | Yes | See the Statuses endpoint
+uuid | nil | The uuid of a Catalogue Item. If a uuid is prvided the Catalogue Item will be updated instead of a new one created. | String | Yes | See the Statuses endpoint
 
 
 ### Nested Attribute Associations Attributes Parameters
 
 Parameter | Default | Description | Type | Required? | Options
 --------- | ------- | ----------- | ---- | --------- | -------
-attribute_id | nil | The uuid of attribute to be linked to the Item by the AttributeAssociation | String | Yes |
+attribute_id | nil | The uuid of attribute to be linked to the Catalogue Item by the AttributeAssociation | String | Yes |
 value | nil | The value of the Attribute | String | No |
 position | nil | The position of the AttributeAssociation in the list | Integer | No |

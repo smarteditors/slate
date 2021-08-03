@@ -96,7 +96,7 @@
 }
 ```
 
-This endpoint retrieves a paginated list of all Items for the current Client or for a Type. 
+This endpoint retrieves a paginated list of all Catalogue Items for the current Client or for a Type. 
 
 ### HTTP Request
 
@@ -108,5 +108,5 @@ This endpoint retrieves a paginated list of all Items for the current Client or 
 Parameter | Default | Description | Type | Required?
 --------- | ------- | ----------- | ---- | --------
 type_id | nil | The uuid of a Type | String | No
-page | 1 | The page of paginated items returned | Integer | No
-per_page | 250 | Number of items on each page of items returned | Integer | No
+page | 1 | The page of paginated Catalogue Items returned | Integer | No
+per_page | 250 | Number of Catalogue Items on each page returned | Integer | No

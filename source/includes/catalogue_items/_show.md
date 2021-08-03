@@ -119,7 +119,7 @@
 }
 ```
 
-This endpoint retrieves a specific Item.
+This endpoint retrieves a specific Catalogue Item.
 
 ### HTTP Request
 

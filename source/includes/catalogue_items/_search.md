@@ -107,6 +107,6 @@ This endpoint retrieves a list of Catalogue Items filtered by search parameters.
 
 Parameter | Default | Description | Type | Required?
 --------- | ------- | ----------- | ---- | --------
-name | nil | A search term applied to the Item name | String | No
+name | nil | A search term applied to the Catalogue Item name | String | No
 types | nil | A list of Type uuids | String | No ??? need to specify how these params should be submitted
-page | nil | The page of Items to be returned | Integer | No
+page | nil | The page of Catalogue Items to be returned | Integer | No

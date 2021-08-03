@@ -106,4 +106,4 @@ This endpoint retrieves a list of Catalogue Items filtered by a search term on t
 
 Parameter | Default | Description | Type | Required?
 --------- | ------- | ----------- | ---- | --------
-code | nil | A search term applied to the Item code | String | No
+code | nil | A search term applied to the Catalogue Item code | String | No

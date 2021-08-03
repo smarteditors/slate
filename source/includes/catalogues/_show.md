@@ -1,6 +1,6 @@
 ## Get a Specific Catalogue
 
-> `GET http://localhost:3001/api/v6/catalogues/38f5d5a1-52e6-4091-b9cf-2d9bc34efc3f`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/catalogues/38f5d5a1-52e6-4091-b9cf-2d9bc34efc3f`
 
 > Example response
 
@@ -23,4 +23,4 @@ This endpoint retrieves a specific catalogue.
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/catalogues/<ID>`
+`GET https://catalogue.smarteditors.co.uk/api/v6/catalogues/<ID>`

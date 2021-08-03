@@ -3,9 +3,9 @@
 ```ruby
 example_params = {
   item: {
-    location_id: Integer,
-    condition_id: Integer,
-    status_id: Integer,
+    location_id: String,
+    condition_id: String,
+    status_id: String,
     code: String,
     usage: String ['in_use', 'unused'],
     project: Text,
@@ -16,7 +16,7 @@ example_params = {
     room: String,
     warranty: Integer, 
     warranty_info: Text,
-    action_id: Integer,
+    action_id: String,
     installation_date: Date, 
     life_expectancy: Float,
     catalogue_item_id: String,
@@ -30,7 +30,7 @@ example_params = {
 
     notes_attributes: [
       {
-        user_id: Integer,
+        user_id: String,
         body: Text
       }
     ],
@@ -159,7 +159,7 @@ This endpoint updates a specific Item.
 
 ### HTTP Request
 
-`PUT http://localhost:3000/api/v7/items/<ID>`
+`PUT https://smartedi2.smarteditors.co.uk/api/v7/items/<ID>`
 
 ### URL Parameters
 

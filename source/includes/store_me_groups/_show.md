@@ -4,7 +4,7 @@ Not used in public API
 
 ```ruby
 example_params = {
-  store_me_group_id: Integer
+  store_me_group_id: String
 }
 
 api = EDi::APIClient
@@ -85,7 +85,7 @@ This endpoint retrieves a Store Me Group for ????
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/store_me_groups/<ID>`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/store_me_groups/<ID>`
 
 ### URL Parameters
 

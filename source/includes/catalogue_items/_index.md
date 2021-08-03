@@ -1,6 +1,6 @@
 ## Get All Catalogue Items
 
-> `GET http://localhost:3001/api/v6/items`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/catalogue_items`
 
 > Example response
 
@@ -10,7 +10,7 @@
   "authority": {
     "email": "ian@eastenders.com"
   },
-  "items": [
+  "catalogue_items": [
     {
       "uuid": "e4f05457-9153-435d-9502-04cb7f8ba0ea",
       "archived": false,
@@ -100,7 +100,7 @@ This endpoint retrieves a paginated list of all Items for the current Client or 
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/attributes`
+`GET https://catalogue.smarteditors.co.uk/api/v6/attributes`
 
 
 ### Query Parameters

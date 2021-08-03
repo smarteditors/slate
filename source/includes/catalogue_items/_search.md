@@ -1,6 +1,6 @@
 ## Search Catalogue Items
 
-> `GET http://localhost:3001/api/v6/items/search`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/catalogue_items/search`
 
 > Example response
 
@@ -10,7 +10,7 @@
   "authority": {
     "email": "ian@eastenders.com"
   },
-  "items": [
+  "catalogue_items": [
     {
       "uuid": "e4f05457-9153-435d-9502-04cb7f8ba0ea",
       "archived": false,
@@ -100,7 +100,7 @@ This endpoint retrieves a list of Catalogue Items filtered by search parameters.
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/items/search`
+`GET https://catalogue.smarteditors.co.uk/api/v6/catalogue_items/search`
 
 
 ### Query Parameters

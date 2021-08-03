@@ -1,6 +1,6 @@
 ## Get A List Of Types
 
-> `GET http://localhost:3001/api/v6/types`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/types`
 
 > Example response
 
@@ -49,7 +49,7 @@ This endpoint retrieves a list of Types for the current client or for a specifie
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/types`
+`GET https://catalogue.smarteditors.co.uk/api/v6/types`
 
 
 ### Query Parameters

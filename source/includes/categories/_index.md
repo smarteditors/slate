@@ -1,6 +1,6 @@
 ## Get All Categories
 
-> `GET http://localhost:3001/api/v6/categories`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/categories`
 
 > Example response
 
@@ -34,7 +34,7 @@ This endpoint retrieves all Categories for the current client or for a specified
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/categories`
+`GET https://catalogue.smarteditors.co.uk/api/v6/categories`
 
 
 ### Query Parameters

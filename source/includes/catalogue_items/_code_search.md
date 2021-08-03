@@ -1,6 +1,6 @@
 ## Search Catalogue Items By Code
 
-> `GET http://localhost:3001/api/v6/items/code_search?code=sacsa`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/catalogue_items/code_search?code=sacsa`
 
 > Example response
 
@@ -10,7 +10,7 @@
   "authority": {
     "email": "ian@eastenders.com"
   },
-  "items": [
+  "catalogue_items": [
     {
       "uuid": "e4f05457-9153-435d-9502-04cb7f8ba0ea",
       "archived": false,
@@ -99,7 +99,7 @@ This endpoint retrieves a list of Catalogue Items filtered by a search term on t
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/items/code_search`
+`GET https://catalogue.smarteditors.co.uk/api/v6/catalogue_items/code_search`
 
 
 ### Query Parameters

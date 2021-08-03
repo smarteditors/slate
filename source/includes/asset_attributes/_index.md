@@ -1,6 +1,6 @@
 ## Get All Asset Attributes
 
-> `GET http://localhost:3001/api/v6/attributes`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/attributes`
 
 > Example response
 
@@ -33,7 +33,7 @@ This endpoint retrieves all Asset Attributes for the current client or for a Typ
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/attributes`
+`GET https://catalogue.smarteditors.co.uk/api/v6/attributes`
 
 
 ### Query Parameters

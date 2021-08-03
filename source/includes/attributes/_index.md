@@ -1,6 +1,6 @@
 ## Get A List Of Attributes
 
-> `GET http://localhost:3001/api/v6/attributes`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/attributes`
 
 > Example response
 
@@ -40,4 +40,4 @@ This endpoint retrieves a list of Atrributes for the current client.
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/attributes`
+`GET https://catalogue.smarteditors.co.uk/api/v6/attributes`

@@ -1,13 +1,13 @@
 ## Get All Locations
 
-> `GET http://localhost:3000/api/v7/meta/locations`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/meta/locations`
 
 ```ruby
 example_params = {
-  id: Integer,
+  id: String,
   resource: String ['stores', 'transits'],
-  client_id: Integer,
-  asset_id: Integer,
+  client_id: String,
+  asset_id: String,
   query: String,
   per_page: Integer,
   page: Integer,
@@ -67,8 +67,8 @@ example_params = {
   "meta": {
     "pagination": {
       "Link": {
-        "first": "http://localhost:3000/api/v7/locations?page=1",
-        "last": "http://localhost:3000/api/v7/locations?page=1"
+        "first": "https://smartedi2.smarteditors.co.uk/api/v7/locations?page=1",
+        "last": "https://smartedi2.smarteditors.co.uk/api/v7/locations?page=1"
       },
       "Current-Page": "1",
       "Page-Items": "10",
@@ -83,7 +83,7 @@ This endpoint retrieves all root locations for the current client, or all child 
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/meta/locations`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/meta/locations`
 
 ### Query Parameters
 

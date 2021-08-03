@@ -1,6 +1,6 @@
 ## User
 
-> `GET http://localhost:3000/api/v7/sessions/user`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/sessions/user`
 
 > Example response
 
@@ -32,4 +32,4 @@ This endpoint returns the current User.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/sessions/user`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/sessions/user`

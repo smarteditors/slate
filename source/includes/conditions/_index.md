@@ -1,6 +1,6 @@
 ## Get All Conditions
 
-> `GET http://localhost:3000/api/v7/meta/conditions`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/meta/conditions`
 
 > Example response
 
@@ -27,4 +27,4 @@ This endpoint retrieves all Item Conditions.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/meta/conditions`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/meta/conditions`

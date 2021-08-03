@@ -2,7 +2,7 @@ Not used in public API
 
 ## Get All Actions
 
-> `GET http://localhost:3000/api/v7/meta/actions`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/meta/actions`
 
 > Example response
 
@@ -37,4 +37,4 @@ This endpoint retrieves all Actions.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/meta/actions`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/meta/actions`

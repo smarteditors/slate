@@ -1,6 +1,6 @@
 ## Update A Photo
 
-> `PUT http://localhost:3000/api/v7/photos/73f5f971-c6d6-4495-b2bf-022380d27c23`
+> `PUT https://smartedi2.smarteditors.co.uk/api/v7/photos/73f5f971-c6d6-4495-b2bf-022380d27c23`
 
 ```ruby
 example_params = {
@@ -47,7 +47,7 @@ This endpoint attached a file to a specific Photo record.
 
 ### HTTP Request
 
-`PUT http://localhost:3000/api/v7/photos/<ID>`
+`PUT https://smartedi2.smarteditors.co.uk/api/v7/photos/<ID>`
 
 
 ### URL Parameters

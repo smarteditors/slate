@@ -1,6 +1,6 @@
 ## Authenticate
 
-> `POST http://localhost:3000/api/v7/sessions/authenticate`
+> `POST https://smartedi2.smarteditors.co.uk/api/v7/sessions/authenticate`
 
 ```ruby
 example_params = {
@@ -41,7 +41,7 @@ This endpoint authenticates a User.
 
 ### HTTP Request
 
-`POST http://localhost:3000/api/v7/sessions/authenticate`
+`POST https://smartedi2.smarteditors.co.uk/api/v7/sessions/authenticate`
 
 ### Query Parameters
 

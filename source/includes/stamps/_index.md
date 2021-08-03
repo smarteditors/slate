@@ -23,4 +23,4 @@ This endpoint retrieves all Action Stamps.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/meta/stamps`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/meta/stamps`

@@ -1,6 +1,6 @@
 ## Get All Catalogues
 
-> `GET http://localhost:3001/api/v6/catalogues`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/catalogues`
 
 > Example response
 
@@ -31,4 +31,4 @@ This endpoint retrieves all Catalogues for the current client.
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/catalogues`
+`GET https://catalogue.smarteditors.co.uk/api/v6/catalogues`

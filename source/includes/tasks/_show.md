@@ -122,7 +122,7 @@ This endpoint retrieves a specific Task
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/tasks/<ID>`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/tasks/<ID>`
 
 ### URL Parameters
 

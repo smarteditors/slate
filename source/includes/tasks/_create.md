@@ -3,13 +3,13 @@
 ```ruby
 example_params = {
   task: {
-    location_id: Integer,
+    location_id: String,
     description: Text,
     scheduled_date: Date,
     due_date: Date,
-    assigned_to_id: Integer,
-    assigned_by_id: Integer,
-    reviewer_id: Integer
+    assigned_to_id: String,
+    assigned_by_id: String,
+    reviewer_id: String
   }
 }
 
@@ -29,4 +29,4 @@ This endpoint creates a new Task.
 
 ### HTTP Request
 
-`POST http://localhost:3000/api/v7/tasks`
+`POST https://smartedi2.smarteditors.co.uk/api/v7/tasks`

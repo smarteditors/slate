@@ -1,6 +1,6 @@
 ## Get A List Of Items
 
-> `GET http://localhost:3000/api/v7/meta/items`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/meta/items`
 
 ```ruby
 example_params = {
@@ -75,9 +75,9 @@ example_params = {
   "meta": {
     "pagination": {
       "Link": {
-        "first": "http://localhost:3000/api/v7/items?page=1",
-        "next": "http://localhost:3000/api/v7/items?page=2",
-        "last": "http://localhost:3000/api/v7/items?page=4"
+        "first": "https://smartedi2.smarteditors.co.uk/api/v7/items?page=1",
+        "next": "https://smartedi2.smarteditors.co.uk/api/v7/items?page=2",
+        "last": "https://smartedi2.smarteditors.co.uk/api/v7/items?page=4"
       },
       "Current-Page": "1",
       "Page-Items": "10",
@@ -92,7 +92,7 @@ This endpoint retrieves all Items for a client, with options to filter by locati
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/meta/items`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/meta/items`
 
 ### Query Parameters
 

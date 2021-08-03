@@ -1,6 +1,6 @@
 ## Get a Specific Catalogue Item
 
-> `GET http://localhost:3001/api/v6/items/d55010cb-5d05-4749-b6b4-f08070cc21bb`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/catalogue_items/d55010cb-5d05-4749-b6b4-f08070cc21bb`
 
 > Example response
 
@@ -10,7 +10,7 @@
   "authority": {
     "email": "ian@eastenders.com"
   },
-  "item": {
+  "catalogue_item": {
     "uuid": "e4f05457-9153-435d-9502-04cb7f8ba0ea",
     "archived": false,
     "catalogue": {
@@ -123,4 +123,4 @@ This endpoint retrieves a specific Item.
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/items/<ID>`
+`GET https://catalogue.smarteditors.co.uk/api/v6/catalogue_items/<ID>`

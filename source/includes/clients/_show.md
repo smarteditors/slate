@@ -1,6 +1,6 @@
 ## Get a Specific Client
 
-> `GET http://localhost:3000/api/v7/clients/38f5d5a1-52e6-4091-b9cf-2d9bc34efc3f`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/clients/38f5d5a1-52e6-4091-b9cf-2d9bc34efc3f`
 
 > Example response
 
@@ -27,7 +27,7 @@ This endpoint retrieves a specific Client.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/clients/<ID>`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/clients/<ID>`
 
 ### URL Parameters
 

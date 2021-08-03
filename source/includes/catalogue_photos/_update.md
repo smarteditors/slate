@@ -1,6 +1,6 @@
 ## Update An Item With A Photo
 
-> `PUT http://localhost:3001/api/v6/photos/73f5f971-c6d6-4495-b2bf-022380d27c23`
+> `PUT https://catalogue.smarteditors.co.uk/api/v6/photos/73f5f971-c6d6-4495-b2bf-022380d27c23`
 
 ```ruby
 example_params = {
@@ -96,7 +96,7 @@ This endpoint attaches an image file to a specific Catalogue Item record.
 
 ### HTTP Request
 
-`PUT http://localhost:3001/api/v6/photos/<ItemID>`
+`PUT https://catalogue.smarteditors.co.uk/api/v6/photos/<ItemID>`
 
 
 ### URL Parameters

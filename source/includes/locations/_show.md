@@ -1,6 +1,6 @@
 ## Get a Specific Location
 
-> `GET http://localhost:3000/api/v7/locations/7dd46282-929f-4899-bb71-141d8c688454`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/locations/7dd46282-929f-4899-bb71-141d8c688454`
 
 > Example response
 
@@ -66,7 +66,7 @@ This endpoint retrieves a specific location.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/locations/<ID>`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/locations/<ID>`
 
 ### URL Parameters
 

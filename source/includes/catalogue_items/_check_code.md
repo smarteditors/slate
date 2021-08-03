@@ -1,6 +1,6 @@
 ## Get an Item by Code
 
-> `GET http://localhost:3001/api/v6/items/check_code`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/catalogue_items/check_code`
 
 > Example response
 
@@ -10,7 +10,7 @@
   "authority": {
     "email": "ian@eastenders.com"
   },
-  "item": {
+  "catalogue_item": {
     "uuid": "e4f05457-9153-435d-9502-04cb7f8ba0ea",
     "archived": false,
     "catalogue": {
@@ -115,7 +115,7 @@ This endpoint retrieves an Item by the Item's code.
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/items/search`
+`GET https://catalogue.smarteditors.co.uk/api/v6/catalogue_items/search`
 
 
 ### Query Parameters

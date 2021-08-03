@@ -1,6 +1,6 @@
 ## Get Users
 
-> `GET http://localhost:3000/api/v7/users`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/users`
 
 > Example response
 
@@ -34,4 +34,4 @@ This endpoint retrieves all Users for the current client.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/users`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/users`

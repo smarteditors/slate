@@ -1,6 +1,6 @@
 ## Get All Statuses
 
-> `GET http://localhost:3000/api/v7/statuses`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/statuses`
 
 > Example response
 
@@ -39,4 +39,4 @@ This endpoint retrieves all item Statuses for the current Client.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/statuses`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/statuses`

@@ -1,6 +1,6 @@
 ## Get A Specific Item
 
-> `GET http://localhost:3000/api/v7/items/fd4e6d48-db9a-4804-ab59-07cb438b65a8`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/items/fd4e6d48-db9a-4804-ab59-07cb438b65a8`
 
 > Example response
 
@@ -113,7 +113,7 @@ This endpoint retrieves a specific item.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/items/<ID>`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/items/<ID>`
 
 ### URL Parameters
 

@@ -1,6 +1,6 @@
 ## Set the Current Client
 
-> `PUT http://localhost:3000/api/v7/clients/set_current_client`
+> `PUT https://smartedi2.smarteditors.co.uk/api/v7/clients/set_current_client`
 
 ```ruby
 example_params = {
@@ -34,7 +34,7 @@ This endpoint sets the current Client.
 
 ### HTTP Request
 
-`PUT http://localhost:3000/api/v7/clients/set_current_client`
+`PUT https://smartedi2.smarteditors.co.uk/api/v7/clients/set_current_client`
 
 ### Query Parameters
 

@@ -1,6 +1,6 @@
 ## Get A Specific Type
 
-> `GET http://localhost:3001/api/v6/types/d55010cb-5d05-4749-b6b4-f08070cc21bb`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/types/d55010cb-5d05-4749-b6b4-f08070cc21bb`
 
 > Example response
 
@@ -61,4 +61,4 @@ This endpoint retrieves a specific Type.
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/types/<ID>`
+`GET https://catalogue.smarteditors.co.uk/api/v6/types/<ID>`

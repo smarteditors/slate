@@ -1,6 +1,6 @@
 ## Get a Specific Category
 
-> `GET http://localhost:3001/api/v6/categories/d55010cb-5d05-4749-b6b4-f08070cc21bb`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/categories/d55010cb-5d05-4749-b6b4-f08070cc21bb`
 
 > Example response
 
@@ -31,4 +31,4 @@ This endpoint retrieves a specific Category.
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/categories/<ID>`
+`GET https://catalogue.smarteditors.co.uk/api/v6/categories/<ID>`

@@ -1,6 +1,6 @@
 ## Validate an Item code
 
-> `GET http://localhost:3000/api/v7/validate_code`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/validate_code`
 
 ```ruby
 example_params = {
@@ -24,7 +24,7 @@ Item codes must be unique. This endpoint checks whether an Item code is already 
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/validate_code`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/validate_code`
 
 ### Query Parameters
 

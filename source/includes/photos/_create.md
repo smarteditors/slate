@@ -1,12 +1,12 @@
 ## Create A Photo
 
-> `POST http://localhost:3000/api/v7/photos`
+> `POST https://smartedi2.smarteditors.co.uk/api/v7/photos`
 
 ```ruby
 example_params = {
   photo: {
     uuid: String,
-    item_id: Integer,
+    item_id: String,
     image_source_url: String,
     created_at: DateTime
   }
@@ -53,7 +53,7 @@ This endpoint creates a new Photo record linked to an item. If the uuid of an ex
 
 ### HTTP Request
 
-`POST http://localhost:3000/api/v7/photos`
+`POST https://smartedi2.smarteditors.co.uk/api/v7/photos`
 
 
 ### Photo Parameters

@@ -1,6 +1,6 @@
 ## Client
 
-> `GET http://localhost:3000/api/v7/sessions/client`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/sessions/client`
 
 > Example response
 
@@ -29,4 +29,4 @@ This endpoint returns the current Client.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/sessions/client`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/sessions/client`

@@ -1,6 +1,6 @@
 ## Logout
 
-> `DELETE http://localhost:3000/api/v7/sessions/logout`
+> `DELETE https://smartedi2.smarteditors.co.uk/api/v7/sessions/logout`
 
 > Example response
 
@@ -18,4 +18,4 @@ This endpoint logs out a user.
 
 ### HTTP Request
 
-`DELETE http://localhost:3000/api/v7/sessions/logout`
+`DELETE https://smartedi2.smarteditors.co.uk/api/v7/sessions/logout`

@@ -1,6 +1,6 @@
 ## Get All Cients
 
-> `GET http://localhost:3000/api/v7/clients`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/clients`
 
 > Example response
 
@@ -29,4 +29,4 @@ This endpoint retrieves a list of Clients which the current user has access to.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/clients`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/clients`

@@ -1,6 +1,6 @@
 ## Population
 
-> `GET http://localhost:3000/api/v7/locations/d8531da9-85a3-4c57-9ffc-66f9f24c7a9b/population`
+> `GET https://smartedi2.smarteditors.co.uk/api/v7/locations/d8531da9-85a3-4c57-9ffc-66f9f24c7a9b/population`
 
 > Example response
 
@@ -35,7 +35,7 @@ This endpoint retrieves all Items stored at a specific location.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/locations/<ID>/population`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/locations/<ID>/population`
 
 ### URL Parameters
 

@@ -2,7 +2,7 @@
 
 ```ruby
 example_params = {
-  client_id: Integer
+  client_id: String
 }
 
 api = EDi::APIClient
@@ -35,7 +35,7 @@ This endpoint retrieves all Store Me Groups for the current client.
 
 ### HTTP Request
 
-`GET http://localhost:3000/api/v7/store_me_groups`
+`GET https://smartedi2.smarteditors.co.uk/api/v7/store_me_groups`
 
 ### Query Parameters
 

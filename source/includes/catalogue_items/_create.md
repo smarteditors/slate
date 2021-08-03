@@ -1,10 +1,10 @@
 ## Create An Catalogue Item
 
-> `POST http://localhost:3001/api/v6/items`
+> `POST https://catalogue.smarteditors.co.uk/api/v6/catalogue_items`
 
 ```ruby
 example_params = {
-  item: {
+  catalogue_item: {
     name: String,
     type_id: String,
     code: String,
@@ -32,7 +32,7 @@ example_params = {
   "authority": {
       "email": "ian@eastenders.com"
   },
-  "item": {
+  "catalogue_item": {
     "uuid": "b39709d1-d080-436d-96c3-e98d8348b16f",
     "archived": false,
     "catalogue": {
@@ -145,7 +145,7 @@ This endpoint creates a new Item. If an Item uuid is provided, the item will be 
 
 ### HTTP Request
 
-`POST http://localhost:3001/api/v6/items`
+`POST https://catalogue.smarteditors.co.uk/api/v6/catalogue_items`
 
 ### Item Parameters
 

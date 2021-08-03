@@ -1,6 +1,6 @@
 ## Search Categories
 
-> `GET http://localhost:3001/api/v6/categories/search?catalogue_id=91eef228-5a8d-4eb5-9a44-22af1c6307d0&name=something`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/categories/search?catalogue_id=91eef228-5a8d-4eb5-9a44-22af1c6307d0&name=something`
 
 > Example response
 
@@ -25,7 +25,7 @@ This endpoint retrieves Categories for a specific Catalogue and by a search term
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/categories/search`
+`GET https://catalogue.smarteditors.co.uk/api/v6/categories/search`
 
 
 ### Query Parameters

@@ -1,6 +1,6 @@
 ## Get A List Of Colour Board Colours
 
-> `GET http://localhost:3001/api/v6/colour_board_colours`
+> `GET https://catalogue.smarteditors.co.uk/api/v6/colour_board_colours`
 
 > Example response
 
@@ -33,7 +33,7 @@ This endpoint retrieves a list of Colour Board Colours for the current client or
 
 ### HTTP Request
 
-`GET http://localhost:3001/api/v6/categories`
+`GET https://catalogue.smarteditors.co.uk/api/v6/categories`
 
 
 ### Query Parameters
